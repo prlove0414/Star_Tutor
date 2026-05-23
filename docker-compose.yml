@@ -1,0 +1,34 @@
+# 星学伴 · 一键部署
+# docker compose up -d
+# 访问 http://localhost:8000
+
+services:
+  star-tutor:
+    build: .
+    container_name: star-tutor
+    ports:
+      - "8000:8000"
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - MODEL_PATH=/app/models/Qwen3.5-4B
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    volumes:
+      # 挂载模型目录（避免每次都在镜像里打包大模型）
+      - ./models:/app/models:ro
+      # 挂载 .env 配置
+      - ./.env:/app/.env:ro
+      # 图片输出持久化
+      - ./data/figures:/app/data/figures
+      # 会话历史持久化
+      - ./data/sessions:/app/data/sessions
+      # 前端开发热更新（生产可注释掉）
+      - ./static:/app/static
+      # Agent 代码热更新（开发模式，生产去掉）
+      - ./agents:/app/agents
+    restart: unless-stopped

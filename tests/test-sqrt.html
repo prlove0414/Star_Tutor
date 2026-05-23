@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<link rel="stylesheet" href="/lib/katex.min.css">
+<script src="/lib/katex.min.js"></script>
+<style>body{font-family:-apple-system,sans-serif;padding:20px;}
+.math-block{display:block;margin:8px 0;text-align:center;overflow-x:auto;}
+.math-inline{}</style>
+</head><body>
+<h3>renderMath 模拟测试</h3>
+<div id="out"></div>
+<script>
+function renderMath(text) {
+  if (typeof katex === 'undefined') return text;
+  let html = text;
+  // 完全照搬 index.html 的 renderMath
+  html = html.replace(/\$\$([\s\S]*?)\$\$/g, (_, f) => {
+    try { return '<span class="math-block">' + katex.renderToString(f.trim(), {displayMode:true, throwOnError:false}) + '</span>'; }
+    catch(e) { return '<code>$$' + f + '$$</code>'; }
+  });
+  html = html.replace(/\\\[([\s\S]*?)\\\]/g, (_, f) => {
+    try { return '<span class="math-block">' + katex.renderToString(f.trim(), {displayMode:true, throwOnError:false}) + '</span>'; }
+    catch(e) { return '<code>\\[' + f + '\\]</code>'; }
+  });
+  html = html.replace(/\$(.+?)\$/g, (_, f) => {
+    try { return '<span class="math-inline">' + katex.renderToString(f.trim(), {displayMode:false, throwOnError:false}) + '</span>'; }
+    catch(e) { return '<code>$' + f + '$</code>'; }
+  });
+  html = html.replace(/\\\((.+?)\\\)/g, (_, f) => {
+    try { return '<span class="math-inline">' + katex.renderToString(f.trim(), {displayMode:false, throwOnError:false}) + '</span>'; }
+    catch(e) { return '<code>\(' + f + '\)</code>'; }
+  });
+  return html;
+}
+
+const test = '求根公式：$$x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$$ 其中 $$\\Delta = b^2-4ac$$';
+document.getElementById('out').innerHTML = '<p>' + renderMath(test) + '</p>';
+</script></body></html>

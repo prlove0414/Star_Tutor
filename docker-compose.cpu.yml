@@ -1,0 +1,18 @@
+# 星学伴 · 无 GPU 部署（CPU / 核显用户）
+# docker compose -f docker-compose.cpu.yml up -d
+# 出题功能走 DeepSeek API，其他不变
+# 访问 http://localhost:8000
+
+services:
+  star-tutor:
+    build: .
+    container_name: star-tutor
+    ports:
+      - "8000:8000"
+    environment:
+      - QUESTION_PROVIDER=api
+      - MODEL_PATH=models/Qwen3.5-4B
+    volumes:
+      - ./.env:/app/.env:ro
+      - ./data/figures:/app/data/figures
+    restart: unless-stopped

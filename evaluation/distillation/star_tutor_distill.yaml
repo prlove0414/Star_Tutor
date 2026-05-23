@@ -1,0 +1,35 @@
+### 星学伴 · 蒸馏训练配置
+### Teacher: Qwen3.5-9B (baseline) → Student: Qwen3.5-4B (QLoRA)
+### 运行环境: AutoDL vGPU-48GB
+### 生成时间: 2026-05-21
+
+model_name_or_path: /root/autodl-tmp/models/Qwen3.5-4B
+dataset: star_tutor_distill_data
+dataset_dir: /root/autodl-tmp/LLaMA-Factory/data
+template: qwen
+finetuning_type: lora
+lora_target: all
+
+output_dir: /root/autodl-tmp/output/star_tutor_distill_4b
+logging_dir: /root/autodl-tmp/output/star_tutor_distill_4b/logs
+
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 8
+learning_rate: 2.0e-4
+num_train_epochs: 3
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+max_samples: 500
+
+lora_rank: 32
+lora_alpha: 64
+lora_dropout: 0.05
+
+bf16: true
+use_quantization: true
+quantization_bit: 4
+
+save_strategy: steps
+save_steps: 100
+logging_steps: 10
+max_grad_norm: 1.0

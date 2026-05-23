@@ -1,0 +1,6480 @@
+{
+  "meta": {
+    "title": "初中数学知识图谱",
+    "version": "1.0",
+    "total_nodes": 544,
+    "total_edges": 177,
+    "domains": [
+      "数与代数",
+      "图形与几何",
+      "统计与概率"
+    ],
+    "knowledge_points": 265,
+    "chapters": [
+      {
+        "number": 1,
+        "name": "实数",
+        "domain": "数与代数"
+      },
+      {
+        "number": 2,
+        "name": "代数式与整式（含规律探索）",
+        "domain": "数与代数"
+      },
+      {
+        "number": 3,
+        "name": "分式",
+        "domain": "数与代数"
+      },
+      {
+        "number": 4,
+        "name": "二次根式",
+        "domain": "数与代数"
+      },
+      {
+        "number": 5,
+        "name": "一次方程（组）及其应用",
+        "domain": "数与代数"
+      },
+      {
+        "number": 6,
+        "name": "分式方程及其应用",
+        "domain": "数与代数"
+      },
+      {
+        "number": 7,
+        "name": "一元二次方程及其应用",
+        "domain": "数与代数"
+      },
+      {
+        "number": 8,
+        "name": "一次不等式（组）",
+        "domain": "数与代数"
+      },
+      {
+        "number": 9,
+        "name": "平面直角坐标系与函数",
+        "domain": "数与代数"
+      },
+      {
+        "number": 10,
+        "name": "一次函数的图象及性质",
+        "domain": "数与代数"
+      },
+      {
+        "number": 11,
+        "name": "反比例函数",
+        "domain": "数与代数"
+      },
+      {
+        "number": 12,
+        "name": "二次函数的图象及性质",
+        "domain": "数与代数"
+      },
+      {
+        "number": 13,
+        "name": "几何图形初步、相交线与平行线",
+        "domain": "图形与几何"
+      },
+      {
+        "number": 14,
+        "name": "三角形及其性质",
+        "domain": "图形与几何"
+      },
+      {
+        "number": 15,
+        "name": "特殊三角形",
+        "domain": "图形与几何"
+      },
+      {
+        "number": 16,
+        "name": "全等三角形",
+        "domain": "图形与几何"
+      },
+      {
+        "number": 17,
+        "name": "相似三角形（含位似）",
+        "domain": "图形与几何"
+      },
+      {
+        "number": 18,
+        "name": "锐角三角函数及其应用",
+        "domain": "图形与几何"
+      },
+      {
+        "number": 19,
+        "name": "平行四边形与多边形",
+        "domain": "图形与几何"
+      },
+      {
+        "number": 20,
+        "name": "矩形、菱形、正方形",
+        "domain": "图形与几何"
+      },
+      {
+        "number": 21,
+        "name": "圆的基本性质",
+        "domain": "图形与几何"
+      },
+      {
+        "number": 22,
+        "name": "点、直线与圆的位置关系",
+        "domain": "图形与几何"
+      },
+      {
+        "number": 23,
+        "name": "扇形的相关计算（含圆锥）",
+        "domain": "图形与几何"
+      },
+      {
+        "number": 24,
+        "name": "视图与投影（含尺规作图）",
+        "domain": "图形与几何"
+      },
+      {
+        "number": 25,
+        "name": "图形的对称（含折叠）、平移与旋转",
+        "domain": "图形与几何"
+      },
+      {
+        "number": 26,
+        "name": "统计",
+        "domain": "统计与概率"
+      },
+      {
+        "number": 27,
+        "name": "概率",
+        "domain": "统计与概率"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "kp_0001",
+      "name": "实数",
+      "type": "chapter",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": null,
+      "description": "第1章"
+    },
+    {
+      "id": "kp_0002",
+      "name": "实数的分类",
+      "type": "section",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0001",
+      "description": ""
+    },
+    {
+      "id": "kp_0003",
+      "name": "有理数",
+      "type": "knowledge_point",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0002",
+      "description": "有限小数或无限循环小数"
+    },
+    {
+      "id": "kp_0004",
+      "name": "无理数",
+      "type": "knowledge_point",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0002",
+      "description": "无限不循环小数"
+    },
+    {
+      "id": "kp_0005",
+      "name": "按大小分类",
+      "type": "section",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0001",
+      "description": ""
+    },
+    {
+      "id": "kp_0006",
+      "name": "数轴与点的对应",
+      "type": "section",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0001",
+      "description": ""
+    },
+    {
+      "id": "kp_0007",
+      "name": "相反数与倒数",
+      "type": "section",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0001",
+      "description": ""
+    },
+    {
+      "id": "kp_0008",
+      "name": "科学记数法",
+      "type": "section",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0001",
+      "description": ""
+    },
+    {
+      "id": "kp_0009",
+      "name": "实数的大小比较",
+      "type": "section",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0001",
+      "description": ""
+    },
+    {
+      "id": "kp_0010",
+      "name": "平方根、算术平方根、立方根",
+      "type": "section",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0001",
+      "description": ""
+    },
+    {
+      "id": "kp_0011",
+      "name": "重要结论",
+      "type": "section",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0001",
+      "description": ""
+    },
+    {
+      "id": "kp_0012",
+      "name": "实数的运算",
+      "type": "section",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0001",
+      "description": ""
+    },
+    {
+      "id": "kp_0013",
+      "name": "加法法则",
+      "type": "subsection",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0012",
+      "description": ""
+    },
+    {
+      "id": "kp_0014",
+      "name": "减法法则",
+      "type": "subsection",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0012",
+      "description": ""
+    },
+    {
+      "id": "kp_0015",
+      "name": "乘法法则",
+      "type": "subsection",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0012",
+      "description": ""
+    },
+    {
+      "id": "kp_0016",
+      "name": "除法法则",
+      "type": "subsection",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0012",
+      "description": ""
+    },
+    {
+      "id": "kp_0017",
+      "name": "乘方与幂运算",
+      "type": "subsection",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0012",
+      "description": ""
+    },
+    {
+      "id": "kp_0018",
+      "name": "常见平方与立方",
+      "type": "subsection",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0012",
+      "description": ""
+    },
+    {
+      "id": "kp_0019",
+      "name": "去绝对值符号",
+      "type": "subsection",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0012",
+      "description": ""
+    },
+    {
+      "id": "kp_0020",
+      "name": "特殊角的三角函数值",
+      "type": "subsection",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0012",
+      "description": ""
+    },
+    {
+      "id": "kp_0021",
+      "name": "实数的混合运算顺序",
+      "type": "subsection",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0012",
+      "description": ""
+    },
+    {
+      "id": "kp_0022",
+      "name": "代数式与整式（含规律探索）",
+      "type": "chapter",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": null,
+      "description": "第2章"
+    },
+    {
+      "id": "kp_0023",
+      "name": "列代数式",
+      "type": "section",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0022",
+      "description": ""
+    },
+    {
+      "id": "kp_0024",
+      "name": "代数式的求值",
+      "type": "section",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0022",
+      "description": ""
+    },
+    {
+      "id": "kp_0025",
+      "name": "直接代入法",
+      "type": "knowledge_point",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0024",
+      "description": "将已知字母的值代入代数式，按运算顺序计算"
+    },
+    {
+      "id": "kp_0026",
+      "name": "整体代入法",
+      "type": "knowledge_point",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0024",
+      "description": ""
+    },
+    {
+      "id": "kp_0027",
+      "name": "非负性",
+      "type": "section",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0022",
+      "description": ""
+    },
+    {
+      "id": "kp_0028",
+      "name": "整式的相关概念",
+      "type": "section",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0022",
+      "description": ""
+    },
+    {
+      "id": "kp_0029",
+      "name": "单项式",
+      "type": "knowledge_point",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0028",
+      "description": "数或字母的积，单独一个数或字母也是单项式"
+    },
+    {
+      "id": "kp_0030",
+      "name": "多项式",
+      "type": "knowledge_point",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0028",
+      "description": "几个单项式的和"
+    },
+    {
+      "id": "kp_0031",
+      "name": "同类项",
+      "type": "knowledge_point",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0028",
+      "description": "所含字母相同，且相同字母的指数也相同；常数项都是同类项"
+    },
+    {
+      "id": "kp_0032",
+      "name": "整式的加减运算",
+      "type": "section",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0022",
+      "description": ""
+    },
+    {
+      "id": "kp_0033",
+      "name": "合并同类项法则",
+      "type": "knowledge_point",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0032",
+      "description": "系数相加，字母和指数不变"
+    },
+    {
+      "id": "kp_0034",
+      "name": "去括号法则",
+      "type": "knowledge_point",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0032",
+      "description": ""
+    },
+    {
+      "id": "kp_0035",
+      "name": "幂的运算",
+      "type": "section",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0022",
+      "description": ""
+    },
+    {
+      "id": "kp_0036",
+      "name": "整式的乘法运算",
+      "type": "section",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0022",
+      "description": ""
+    },
+    {
+      "id": "kp_0037",
+      "name": "单项式乘单项式",
+      "type": "knowledge_point",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0036",
+      "description": "系数、相同字母的幂分别相乘，只在其中一个出现的字母连同指数作为积的一个因式"
+    },
+    {
+      "id": "kp_0038",
+      "name": "单项式乘多项式",
+      "type": "knowledge_point",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0036",
+      "description": "用单项式乘多项式的每一项，再相加"
+    },
+    {
+      "id": "kp_0039",
+      "name": "多项式乘多项式",
+      "type": "knowledge_point",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0036",
+      "description": "用一个多项式的每一项乘另一个多项式的每一项，再相加"
+    },
+    {
+      "id": "kp_0040",
+      "name": "乘法公式",
+      "type": "knowledge_point",
+      "chapter": 2,
+      "chapter_name": "代数式与整式（含规律探索）",
+      "domain": "数与代数",
+      "parent": "kp_0036",
+      "description": ""
+    },
+    {
+      "id": "kp_0041",
+      "name": "分式",
+      "type": "chapter",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": null,
+      "description": "第3章"
+    },
+    {
+      "id": "kp_0042",
+      "name": "分式的概念",
+      "type": "section",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0041",
+      "description": ""
+    },
+    {
+      "id": "kp_0043",
+      "name": "分式有意义的条件",
+      "type": "section",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0041",
+      "description": ""
+    },
+    {
+      "id": "kp_0044",
+      "name": "分式值为 0 的条件",
+      "type": "section",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0041",
+      "description": ""
+    },
+    {
+      "id": "kp_0045",
+      "name": "分式的基本性质",
+      "type": "section",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0041",
+      "description": ""
+    },
+    {
+      "id": "kp_0046",
+      "name": "最简分式",
+      "type": "section",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0041",
+      "description": ""
+    },
+    {
+      "id": "kp_0047",
+      "name": "通分与约分",
+      "type": "section",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0041",
+      "description": ""
+    },
+    {
+      "id": "kp_0048",
+      "name": "通分",
+      "type": "knowledge_point",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0047",
+      "description": "把几个异分母分式变形成同分母分式，关键是寻找最简公分母"
+    },
+    {
+      "id": "kp_0049",
+      "name": "约分",
+      "type": "knowledge_point",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0047",
+      "description": "把分式的分子和分母分别除以它们的公因式"
+    },
+    {
+      "id": "kp_0050",
+      "name": "分式的运算法则",
+      "type": "section",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0041",
+      "description": ""
+    },
+    {
+      "id": "kp_0051",
+      "name": "同分母加减",
+      "type": "knowledge_point",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0050",
+      "description": "分母不变，分子相加减"
+    },
+    {
+      "id": "kp_0052",
+      "name": "异分母加减",
+      "type": "knowledge_point",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0050",
+      "description": "先通分，再加减"
+    },
+    {
+      "id": "kp_0053",
+      "name": "乘法",
+      "type": "knowledge_point",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0050",
+      "description": "A/B × C/D = (A·C)/(B·D)"
+    },
+    {
+      "id": "kp_0054",
+      "name": "除法",
+      "type": "knowledge_point",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0050",
+      "description": "A/B ÷ C/D = A/B × D/C = (A·D)/(B·C)"
+    },
+    {
+      "id": "kp_0055",
+      "name": "分式化简求值的一般步骤",
+      "type": "section",
+      "chapter": 3,
+      "chapter_name": "分式",
+      "domain": "数与代数",
+      "parent": "kp_0041",
+      "description": ""
+    },
+    {
+      "id": "kp_0056",
+      "name": "二次根式",
+      "type": "chapter",
+      "chapter": 4,
+      "chapter_name": "二次根式",
+      "domain": "数与代数",
+      "parent": null,
+      "description": "第4章"
+    },
+    {
+      "id": "kp_0057",
+      "name": "概念",
+      "type": "section",
+      "chapter": 4,
+      "chapter_name": "二次根式",
+      "domain": "数与代数",
+      "parent": "kp_0056",
+      "description": ""
+    },
+    {
+      "id": "kp_0058",
+      "name": "二次根式有意义的条件",
+      "type": "section",
+      "chapter": 4,
+      "chapter_name": "二次根式",
+      "domain": "数与代数",
+      "parent": "kp_0056",
+      "description": ""
+    },
+    {
+      "id": "kp_0059",
+      "name": "最简二次根式的条件",
+      "type": "section",
+      "chapter": 4,
+      "chapter_name": "二次根式",
+      "domain": "数与代数",
+      "parent": "kp_0056",
+      "description": ""
+    },
+    {
+      "id": "kp_0060",
+      "name": "二次根式的性质",
+      "type": "section",
+      "chapter": 4,
+      "chapter_name": "二次根式",
+      "domain": "数与代数",
+      "parent": "kp_0056",
+      "description": ""
+    },
+    {
+      "id": "kp_0061",
+      "name": "二次根式的运算",
+      "type": "section",
+      "chapter": 4,
+      "chapter_name": "二次根式",
+      "domain": "数与代数",
+      "parent": "kp_0056",
+      "description": ""
+    },
+    {
+      "id": "kp_0062",
+      "name": "加减运算",
+      "type": "knowledge_point",
+      "chapter": 4,
+      "chapter_name": "二次根式",
+      "domain": "数与代数",
+      "parent": "kp_0061",
+      "description": "先化简每个二次根式，合并同类二次根式"
+    },
+    {
+      "id": "kp_0063",
+      "name": "乘除运算",
+      "type": "knowledge_point",
+      "chapter": 4,
+      "chapter_name": "二次根式",
+      "domain": "数与代数",
+      "parent": "kp_0061",
+      "description": ""
+    },
+    {
+      "id": "kp_0064",
+      "name": "二次根式的估值步骤",
+      "type": "section",
+      "chapter": 4,
+      "chapter_name": "二次根式",
+      "domain": "数与代数",
+      "parent": "kp_0056",
+      "description": ""
+    },
+    {
+      "id": "kp_0065",
+      "name": "一次方程（组）及其应用",
+      "type": "chapter",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": null,
+      "description": "第5章"
+    },
+    {
+      "id": "kp_0066",
+      "name": "等式的性质",
+      "type": "section",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0065",
+      "description": ""
+    },
+    {
+      "id": "kp_0067",
+      "name": "一元一次方程",
+      "type": "section",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0065",
+      "description": ""
+    },
+    {
+      "id": "kp_0068",
+      "name": "定义",
+      "type": "knowledge_point",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0067",
+      "description": "只含一个未知数，未知数的次数都是 1 的整式方程，形式为 ax + b = 0（a ≠ 0）"
+    },
+    {
+      "id": "kp_0069",
+      "name": "解法步骤",
+      "type": "subsection",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0067",
+      "description": ""
+    },
+    {
+      "id": "kp_0070",
+      "name": "二元一次方程组",
+      "type": "section",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0065",
+      "description": ""
+    },
+    {
+      "id": "kp_0071",
+      "name": "二元一次方程",
+      "type": "knowledge_point",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0070",
+      "description": "含两个未知数，且未知数的项的次数都是 1 的整式方程"
+    },
+    {
+      "id": "kp_0072",
+      "name": "二元一次方程组",
+      "type": "knowledge_point",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0070",
+      "description": "两个二元一次方程联立"
+    },
+    {
+      "id": "kp_0073",
+      "name": "解",
+      "type": "knowledge_point",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0070",
+      "description": "方程组的公共解"
+    },
+    {
+      "id": "kp_0074",
+      "name": "解法",
+      "type": "subsection",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0070",
+      "description": ""
+    },
+    {
+      "id": "kp_0075",
+      "name": "代入消元法",
+      "type": "knowledge_point",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0074",
+      "description": "其中一个方程未知数的系数为 ±1 时适用"
+    },
+    {
+      "id": "kp_0076",
+      "name": "加减消元法",
+      "type": "knowledge_point",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0074",
+      "description": ""
+    },
+    {
+      "id": "kp_0077",
+      "name": "常见应用模型",
+      "type": "section",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0065",
+      "description": ""
+    },
+    {
+      "id": "kp_0078",
+      "name": "打折销售",
+      "type": "knowledge_point",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0077",
+      "description": "售价 = 标价 × 折扣，销售额 = 售价 × 销量"
+    },
+    {
+      "id": "kp_0079",
+      "name": "购买分配",
+      "type": "knowledge_point",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0077",
+      "description": "总费用 = 甲数量 × 甲单价 + 乙数量 × 乙单价"
+    },
+    {
+      "id": "kp_0080",
+      "name": "工程问题",
+      "type": "knowledge_point",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0077",
+      "description": "工作量 = 工作效率 × 工作时间"
+    },
+    {
+      "id": "kp_0081",
+      "name": "行程问题",
+      "type": "knowledge_point",
+      "chapter": 5,
+      "chapter_name": "一次方程（组）及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0077",
+      "description": "路程 = 速度 × 时间"
+    },
+    {
+      "id": "kp_0082",
+      "name": "分式方程及其应用",
+      "type": "chapter",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": null,
+      "description": "第6章"
+    },
+    {
+      "id": "kp_0083",
+      "name": "分式方程的定义",
+      "type": "section",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0082",
+      "description": ""
+    },
+    {
+      "id": "kp_0084",
+      "name": "分式方程",
+      "type": "knowledge_point",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0083",
+      "description": "分母中含有未知数（或含有未知数的整式作分母）的方程叫做分式方程。"
+    },
+    {
+      "id": "kp_0085",
+      "name": "与整式方程的区别",
+      "type": "knowledge_point",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0083",
+      "description": "整式方程的分母不含未知数；分式方程的分母中必须含有未知数。"
+    },
+    {
+      "id": "kp_0086",
+      "name": "分式方程的解法",
+      "type": "section",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0082",
+      "description": ""
+    },
+    {
+      "id": "kp_0087",
+      "name": "步骤一：去分母",
+      "type": "subsection",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0086",
+      "description": ""
+    },
+    {
+      "id": "kp_0088",
+      "name": "最简公分母的求法",
+      "type": "knowledge_point",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0087",
+      "description": "取各分母系数的最小公倍数与所有字母因式的最高次幂的乘积。"
+    },
+    {
+      "id": "kp_0089",
+      "name": "步骤二：解整式方程",
+      "type": "subsection",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0086",
+      "description": ""
+    },
+    {
+      "id": "kp_0090",
+      "name": "步骤三：验根",
+      "type": "subsection",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0086",
+      "description": ""
+    },
+    {
+      "id": "kp_0091",
+      "name": "增根",
+      "type": "section",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0082",
+      "description": ""
+    },
+    {
+      "id": "kp_0092",
+      "name": "增根的定义",
+      "type": "subsection",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0091",
+      "description": ""
+    },
+    {
+      "id": "kp_0093",
+      "name": "增根产生的原因",
+      "type": "subsection",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0091",
+      "description": ""
+    },
+    {
+      "id": "kp_0094",
+      "name": "核心理解",
+      "type": "knowledge_point",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0093",
+      "description": "增根不是原分式方程的根，但一定是去分母后整式方程的根。"
+    },
+    {
+      "id": "kp_0095",
+      "name": "验根的方法",
+      "type": "subsection",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0091",
+      "description": ""
+    },
+    {
+      "id": "kp_0096",
+      "name": "含参数的分式方程",
+      "type": "section",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0082",
+      "description": ""
+    },
+    {
+      "id": "kp_0097",
+      "name": "已知增根求参数",
+      "type": "knowledge_point",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0096",
+      "description": "将增根（使最简公分母为零的值）代入去分母后的整式方程，解出参数。"
+    },
+    {
+      "id": "kp_0098",
+      "name": "已知无解求参数",
+      "type": "knowledge_point",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0096",
+      "description": "分式方程无解包括两种情况——①整式方程无解；②整式方程的解全是增根。"
+    },
+    {
+      "id": "kp_0099",
+      "name": "列分式方程解应用题",
+      "type": "section",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0082",
+      "description": ""
+    },
+    {
+      "id": "kp_0100",
+      "name": "一般步骤",
+      "type": "subsection",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0099",
+      "description": ""
+    },
+    {
+      "id": "kp_0101",
+      "name": "常见模型一：工程问题",
+      "type": "subsection",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0099",
+      "description": ""
+    },
+    {
+      "id": "kp_0102",
+      "name": "常见模型二：行程问题",
+      "type": "subsection",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0099",
+      "description": ""
+    },
+    {
+      "id": "kp_0103",
+      "name": "常见模型三：购买/分配问题",
+      "type": "subsection",
+      "chapter": 6,
+      "chapter_name": "分式方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0099",
+      "description": ""
+    },
+    {
+      "id": "kp_0104",
+      "name": "一元二次方程及其应用",
+      "type": "chapter",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": null,
+      "description": "第7章"
+    },
+    {
+      "id": "kp_0105",
+      "name": "定义",
+      "type": "section",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0104",
+      "description": ""
+    },
+    {
+      "id": "kp_0106",
+      "name": "解法",
+      "type": "section",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0104",
+      "description": ""
+    },
+    {
+      "id": "kp_0107",
+      "name": "根的判别式",
+      "type": "section",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0104",
+      "description": ""
+    },
+    {
+      "id": "kp_0108",
+      "name": "根与系数的关系（韦达定理）",
+      "type": "section",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0104",
+      "description": ""
+    },
+    {
+      "id": "kp_0109",
+      "name": "增长率与下降率问题",
+      "type": "section",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0104",
+      "description": ""
+    },
+    {
+      "id": "kp_0110",
+      "name": "利润问题",
+      "type": "section",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0104",
+      "description": ""
+    },
+    {
+      "id": "kp_0111",
+      "name": "面积问题（常用模型）",
+      "type": "section",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0104",
+      "description": ""
+    },
+    {
+      "id": "kp_0112",
+      "name": "握手与赠送问题",
+      "type": "section",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0104",
+      "description": ""
+    },
+    {
+      "id": "kp_0113",
+      "name": "一次不等式（组）",
+      "type": "chapter",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": null,
+      "description": "第8章"
+    },
+    {
+      "id": "kp_0114",
+      "name": "不等式的性质",
+      "type": "section",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0113",
+      "description": ""
+    },
+    {
+      "id": "kp_0115",
+      "name": "解一元一次不等式的一般步骤",
+      "type": "section",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0113",
+      "description": ""
+    },
+    {
+      "id": "kp_0116",
+      "name": "解集在数轴上的表示",
+      "type": "section",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0113",
+      "description": ""
+    },
+    {
+      "id": "kp_0117",
+      "name": "不等式组解集的四种情况（a > b）",
+      "type": "section",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0113",
+      "description": ""
+    },
+    {
+      "id": "kp_0118",
+      "name": "实际应用中的关键词",
+      "type": "section",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0113",
+      "description": ""
+    },
+    {
+      "id": "kp_0119",
+      "name": "平面直角坐标系与函数",
+      "type": "chapter",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": null,
+      "description": "第9章"
+    },
+    {
+      "id": "kp_0120",
+      "name": "平面直角坐标系的概念",
+      "type": "section",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0119",
+      "description": ""
+    },
+    {
+      "id": "kp_0121",
+      "name": "x轴（横轴）",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0120",
+      "description": "水平的数轴，取向右为正方向"
+    },
+    {
+      "id": "kp_0122",
+      "name": "y轴（纵轴）",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0120",
+      "description": "铅直的数轴，取向上为正方向"
+    },
+    {
+      "id": "kp_0123",
+      "name": "原点O",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0120",
+      "description": "x轴与y轴的交点，坐标为 `(0, 0)`"
+    },
+    {
+      "id": "kp_0124",
+      "name": "坐标",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0120",
+      "description": "平面内任意一点P的位置可用一对有序实数 `(x, y)` 表示，x为横坐标，y为纵坐标"
+    },
+    {
+      "id": "kp_0125",
+      "name": "象限与坐标符号",
+      "type": "section",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0119",
+      "description": ""
+    },
+    {
+      "id": "kp_0126",
+      "name": "坐标轴上的点",
+      "type": "section",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0119",
+      "description": ""
+    },
+    {
+      "id": "kp_0127",
+      "name": "x轴上的点",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0126",
+      "description": "纵坐标为0，即 `(x, 0)`"
+    },
+    {
+      "id": "kp_0128",
+      "name": "y轴上的点",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0126",
+      "description": "横坐标为0，即 `(0, y)`"
+    },
+    {
+      "id": "kp_0129",
+      "name": "原点",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0126",
+      "description": "横纵坐标均为0，即 `(0, 0)`"
+    },
+    {
+      "id": "kp_0130",
+      "name": "对称点的坐标规律",
+      "type": "section",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0119",
+      "description": ""
+    },
+    {
+      "id": "kp_0131",
+      "name": "点到坐标轴的距离",
+      "type": "section",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0119",
+      "description": ""
+    },
+    {
+      "id": "kp_0132",
+      "name": "两点间距离公式",
+      "type": "section",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0119",
+      "description": ""
+    },
+    {
+      "id": "kp_0133",
+      "name": "特殊情况",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0132",
+      "description": "当A、B同在x轴上（即y₁ = y₂ = 0）时，`d = |x₂ − x₁|`"
+    },
+    {
+      "id": "kp_0134",
+      "name": "特殊情况",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0132",
+      "description": "当A、B同在y轴上（即x₁ = x₂ = 0）时，`d = |y₂ − y₁|`"
+    },
+    {
+      "id": "kp_0135",
+      "name": "线段中点坐标公式",
+      "type": "section",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0119",
+      "description": ""
+    },
+    {
+      "id": "kp_0136",
+      "name": "函数的基本概念",
+      "type": "section",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0119",
+      "description": ""
+    },
+    {
+      "id": "kp_0137",
+      "name": "函数的定义",
+      "type": "subsection",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0136",
+      "description": ""
+    },
+    {
+      "id": "kp_0138",
+      "name": "自变量（x）",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0137",
+      "description": "变化过程中主动变化的量，可以自由取值（在取值范围内）"
+    },
+    {
+      "id": "kp_0139",
+      "name": "因变量（y）",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0137",
+      "description": "随自变量变化而变化的量"
+    },
+    {
+      "id": "kp_0140",
+      "name": "函数值",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0137",
+      "description": "当自变量x取某一确定值a时，对应的y值叫做当 `x = a` 时的函数值"
+    },
+    {
+      "id": "kp_0141",
+      "name": "函数概念的两个核心要素",
+      "type": "subsection",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0136",
+      "description": ""
+    },
+    {
+      "id": "kp_0142",
+      "name": "函数的三种表示方法",
+      "type": "section",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0119",
+      "description": ""
+    },
+    {
+      "id": "kp_0143",
+      "name": "自变量取值范围的确定",
+      "type": "section",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0119",
+      "description": ""
+    },
+    {
+      "id": "kp_0144",
+      "name": "1. 使函数解析式有意义",
+      "type": "subsection",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0143",
+      "description": ""
+    },
+    {
+      "id": "kp_0145",
+      "name": "分母≠0",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0144",
+      "description": "若解析式含有分母，分母不能为零。"
+    },
+    {
+      "id": "kp_0146",
+      "name": "二次根号内≥0",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0144",
+      "description": "若解析式含有二次根号 `√`，被开方数必须大于等于零。"
+    },
+    {
+      "id": "kp_0147",
+      "name": "同时满足多种条件",
+      "type": "knowledge_point",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0144",
+      "description": "若解析式同时含分母和二次根号，则需同时满足所有限制条件。"
+    },
+    {
+      "id": "kp_0148",
+      "name": "2. 使实际问题有意义",
+      "type": "subsection",
+      "chapter": 9,
+      "chapter_name": "平面直角坐标系与函数",
+      "domain": "数与代数",
+      "parent": "kp_0143",
+      "description": ""
+    },
+    {
+      "id": "kp_0149",
+      "name": "一次函数的图象及性质",
+      "type": "chapter",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": null,
+      "description": "第10章"
+    },
+    {
+      "id": "kp_0150",
+      "name": "一次函数定义",
+      "type": "section",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0149",
+      "description": ""
+    },
+    {
+      "id": "kp_0151",
+      "name": "参数意义",
+      "type": "section",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0149",
+      "description": ""
+    },
+    {
+      "id": "kp_0152",
+      "name": "图象分布象限",
+      "type": "section",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0149",
+      "description": ""
+    },
+    {
+      "id": "kp_0153",
+      "name": "与坐标轴交点",
+      "type": "section",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0149",
+      "description": ""
+    },
+    {
+      "id": "kp_0154",
+      "name": "知识延伸",
+      "type": "section",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0149",
+      "description": ""
+    },
+    {
+      "id": "kp_0155",
+      "name": "一次函数图象的平移",
+      "type": "section",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0149",
+      "description": ""
+    },
+    {
+      "id": "kp_0156",
+      "name": "解析式的确定（待定系数法）",
+      "type": "section",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0149",
+      "description": ""
+    },
+    {
+      "id": "kp_0157",
+      "name": "与方程、不等式的关系",
+      "type": "section",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0149",
+      "description": ""
+    },
+    {
+      "id": "kp_0158",
+      "name": "反比例函数",
+      "type": "chapter",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": null,
+      "description": "第11章"
+    },
+    {
+      "id": "kp_0159",
+      "name": "定义",
+      "type": "section",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": "kp_0158",
+      "description": ""
+    },
+    {
+      "id": "kp_0160",
+      "name": "图象与性质",
+      "type": "section",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": "kp_0158",
+      "description": ""
+    },
+    {
+      "id": "kp_0161",
+      "name": "k 的几何意义",
+      "type": "section",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": "kp_0158",
+      "description": ""
+    },
+    {
+      "id": "kp_0162",
+      "name": "解析式的确定",
+      "type": "section",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": "kp_0158",
+      "description": ""
+    },
+    {
+      "id": "kp_0163",
+      "name": "待定系数法",
+      "type": "subsection",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": "kp_0162",
+      "description": ""
+    },
+    {
+      "id": "kp_0164",
+      "name": "利用 k 的几何意义",
+      "type": "subsection",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": "kp_0162",
+      "description": ""
+    },
+    {
+      "id": "kp_0165",
+      "name": "二次函数的图象及性质",
+      "type": "chapter",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": null,
+      "description": "第12章"
+    },
+    {
+      "id": "kp_0166",
+      "name": "解析式的三种形式",
+      "type": "section",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0165",
+      "description": ""
+    },
+    {
+      "id": "kp_0167",
+      "name": "一般式",
+      "type": "knowledge_point",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0166",
+      "description": "y = ax² + bx + c（a ≠ 0）"
+    },
+    {
+      "id": "kp_0168",
+      "name": "顶点式",
+      "type": "knowledge_point",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0166",
+      "description": "y = a(x - h)² + k，顶点为 (h, k)"
+    },
+    {
+      "id": "kp_0169",
+      "name": "两点式",
+      "type": "knowledge_point",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0166",
+      "description": "y = a(x - x₁)(x - x₂)（与 x 轴交点为 (x₁, 0)、(x₂, 0)）"
+    },
+    {
+      "id": "kp_0170",
+      "name": "函数性质",
+      "type": "section",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0165",
+      "description": ""
+    },
+    {
+      "id": "kp_0171",
+      "name": "图象特征与参数关系",
+      "type": "section",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0165",
+      "description": ""
+    },
+    {
+      "id": "kp_0172",
+      "name": "判断 a、b、c 的关系式与 0 的关系",
+      "type": "section",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0165",
+      "description": ""
+    },
+    {
+      "id": "kp_0173",
+      "name": "图象平移（顶点式）",
+      "type": "section",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0165",
+      "description": ""
+    },
+    {
+      "id": "kp_0174",
+      "name": "二次函数与方程、不等式的关系",
+      "type": "section",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0165",
+      "description": ""
+    },
+    {
+      "id": "kp_0175",
+      "name": "几何图形初步、相交线与平行线",
+      "type": "chapter",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": null,
+      "description": "第13章"
+    },
+    {
+      "id": "kp_0176",
+      "name": "直线与线段的基本事实",
+      "type": "section",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0175",
+      "description": ""
+    },
+    {
+      "id": "kp_0177",
+      "name": "线段的和与差",
+      "type": "section",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0175",
+      "description": ""
+    },
+    {
+      "id": "kp_0178",
+      "name": "线段的中点",
+      "type": "section",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0175",
+      "description": ""
+    },
+    {
+      "id": "kp_0179",
+      "name": "角",
+      "type": "section",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0175",
+      "description": ""
+    },
+    {
+      "id": "kp_0180",
+      "name": "互为余角",
+      "type": "knowledge_point",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0179",
+      "description": "两角和为 90°，性质：同角（或等角）的余角相等"
+    },
+    {
+      "id": "kp_0181",
+      "name": "互为补角",
+      "type": "knowledge_point",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0179",
+      "description": "两角和为 180°，性质：同角（或等角）的补角相等"
+    },
+    {
+      "id": "kp_0182",
+      "name": "角平分线",
+      "type": "section",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0175",
+      "description": ""
+    },
+    {
+      "id": "kp_0183",
+      "name": "相交线",
+      "type": "section",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0175",
+      "description": ""
+    },
+    {
+      "id": "kp_0184",
+      "name": "对顶角",
+      "type": "knowledge_point",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0183",
+      "description": "相等"
+    },
+    {
+      "id": "kp_0185",
+      "name": "邻补角",
+      "type": "knowledge_point",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0183",
+      "description": "互补"
+    },
+    {
+      "id": "kp_0186",
+      "name": "三线八角",
+      "type": "knowledge_point",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0183",
+      "description": ""
+    },
+    {
+      "id": "kp_0187",
+      "name": "垂线",
+      "type": "section",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0175",
+      "description": ""
+    },
+    {
+      "id": "kp_0188",
+      "name": "平行线",
+      "type": "section",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0175",
+      "description": ""
+    },
+    {
+      "id": "kp_0189",
+      "name": "平行线的判定与性质",
+      "type": "knowledge_point",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0188",
+      "description": ""
+    },
+    {
+      "id": "kp_0190",
+      "name": "命题",
+      "type": "section",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0175",
+      "description": ""
+    },
+    {
+      "id": "kp_0191",
+      "name": "命题",
+      "type": "knowledge_point",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0190",
+      "description": "判断一件事情的句子"
+    },
+    {
+      "id": "kp_0192",
+      "name": "真命题",
+      "type": "knowledge_point",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0190",
+      "description": "条件成立时结论一定成立"
+    },
+    {
+      "id": "kp_0193",
+      "name": "假命题",
+      "type": "knowledge_point",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0190",
+      "description": "条件成立时结论不一定成立"
+    },
+    {
+      "id": "kp_0194",
+      "name": "互逆命题",
+      "type": "knowledge_point",
+      "chapter": 13,
+      "chapter_name": "几何图形初步、相交线与平行线",
+      "domain": "图形与几何",
+      "parent": "kp_0190",
+      "description": "第一个命题的条件是第二个命题的结论，反之亦然"
+    },
+    {
+      "id": "kp_0195",
+      "name": "三角形及其性质",
+      "type": "chapter",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": null,
+      "description": "第14章"
+    },
+    {
+      "id": "kp_0196",
+      "name": "三角形的分类",
+      "type": "section",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0195",
+      "description": ""
+    },
+    {
+      "id": "kp_0197",
+      "name": "按边分",
+      "type": "subsection",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0196",
+      "description": ""
+    },
+    {
+      "id": "kp_0198",
+      "name": "按角分",
+      "type": "subsection",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0196",
+      "description": ""
+    },
+    {
+      "id": "kp_0199",
+      "name": "三边关系",
+      "type": "section",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0195",
+      "description": ""
+    },
+    {
+      "id": "kp_0200",
+      "name": "角关系",
+      "type": "section",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0195",
+      "description": ""
+    },
+    {
+      "id": "kp_0201",
+      "name": "三角形的四线",
+      "type": "section",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0195",
+      "description": ""
+    },
+    {
+      "id": "kp_0202",
+      "name": "三角形面积问题模型",
+      "type": "section",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0195",
+      "description": ""
+    },
+    {
+      "id": "kp_0203",
+      "name": "特殊三角形",
+      "type": "chapter",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": null,
+      "description": "第15章"
+    },
+    {
+      "id": "kp_0204",
+      "name": "等腰三角形",
+      "type": "section",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0203",
+      "description": ""
+    },
+    {
+      "id": "kp_0205",
+      "name": "定义",
+      "type": "knowledge_point",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0204",
+      "description": "有两条边相等的三角形"
+    },
+    {
+      "id": "kp_0206",
+      "name": "性质",
+      "type": "knowledge_point",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0204",
+      "description": ""
+    },
+    {
+      "id": "kp_0207",
+      "name": "判定",
+      "type": "knowledge_point",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0204",
+      "description": ""
+    },
+    {
+      "id": "kp_0208",
+      "name": "面积",
+      "type": "knowledge_point",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0204",
+      "description": "S = 1/2 × 底 × 高"
+    },
+    {
+      "id": "kp_0209",
+      "name": "等边三角形",
+      "type": "section",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0203",
+      "description": ""
+    },
+    {
+      "id": "kp_0210",
+      "name": "定义",
+      "type": "knowledge_point",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0209",
+      "description": "三边相等的三角形"
+    },
+    {
+      "id": "kp_0211",
+      "name": "性质",
+      "type": "knowledge_point",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0209",
+      "description": ""
+    },
+    {
+      "id": "kp_0212",
+      "name": "判定",
+      "type": "knowledge_point",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0209",
+      "description": ""
+    },
+    {
+      "id": "kp_0213",
+      "name": "面积",
+      "type": "knowledge_point",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0209",
+      "description": "S = √3/4 × a²"
+    },
+    {
+      "id": "kp_0214",
+      "name": "直角三角形",
+      "type": "section",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0203",
+      "description": ""
+    },
+    {
+      "id": "kp_0215",
+      "name": "定义",
+      "type": "knowledge_point",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0214",
+      "description": "有一个角是直角的三角形"
+    },
+    {
+      "id": "kp_0216",
+      "name": "性质",
+      "type": "knowledge_point",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0214",
+      "description": ""
+    },
+    {
+      "id": "kp_0217",
+      "name": "判定",
+      "type": "knowledge_point",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0214",
+      "description": ""
+    },
+    {
+      "id": "kp_0218",
+      "name": "面积",
+      "type": "knowledge_point",
+      "chapter": 15,
+      "chapter_name": "特殊三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0214",
+      "description": "S = 1/2 × 直角边乘积 = 1/2 × 斜边 × 斜边上的高"
+    },
+    {
+      "id": "kp_0219",
+      "name": "全等三角形",
+      "type": "chapter",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": null,
+      "description": "第16章"
+    },
+    {
+      "id": "kp_0220",
+      "name": "全等三角形的概念与性质",
+      "type": "section",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0219",
+      "description": ""
+    },
+    {
+      "id": "kp_0221",
+      "name": "全等形",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0220",
+      "description": "能够完全重合的两个图形叫做全等形。全等形的形状相同、大小相等。"
+    },
+    {
+      "id": "kp_0222",
+      "name": "全等三角形",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0220",
+      "description": "能够完全重合的两个三角形叫做全等三角形。互相重合的顶点叫做对应顶点，互相重合的边叫做对应边，互相重合的角叫做对应角。"
+    },
+    {
+      "id": "kp_0223",
+      "name": "表示方法",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0220",
+      "description": "△ABC ≌ △DEF。书写时应注意**对应顶点写在对应的位置上**。"
+    },
+    {
+      "id": "kp_0224",
+      "name": "全等三角形的性质",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0220",
+      "description": ""
+    },
+    {
+      "id": "kp_0225",
+      "name": "对应边相等",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0224",
+      "description": "全等三角形的对应边相等 → `AB = DE, BC = EF, AC = DF`"
+    },
+    {
+      "id": "kp_0226",
+      "name": "对应角相等",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0224",
+      "description": "全等三角形的对应角相等 → `∠A = ∠D, ∠B = ∠E, ∠C = ∠F`"
+    },
+    {
+      "id": "kp_0227",
+      "name": "对应线段相等",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0224",
+      "description": "对应边上的中线、高线、角平分线分别相等"
+    },
+    {
+      "id": "kp_0228",
+      "name": "面积与周长相等",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0224",
+      "description": "全等三角形的面积相等，周长相等"
+    },
+    {
+      "id": "kp_0229",
+      "name": "全等三角形的判定",
+      "type": "section",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0219",
+      "description": ""
+    },
+    {
+      "id": "kp_0230",
+      "name": "五大判定定理",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0229",
+      "description": ""
+    },
+    {
+      "id": "kp_0231",
+      "name": "SAS 的\"角\"必须是夹角",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0230",
+      "description": "若用两条边和一个对角对应相等（即 SSA），不能判定全等。反例：已知 AB=DE，AC=DF，∠B=∠E，但△ABC与△DEF可能不全等（锐角/钝角三角形的二义性）。"
+    },
+    {
+      "id": "kp_0232",
+      "name": "SSA不能判定全等",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0230",
+      "description": "两边和其中一边的对角对应相等的两个三角形不一定全等。SSA是考试中常见的错误选项。"
+    },
+    {
+      "id": "kp_0233",
+      "name": "AAA不能判定全等",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0230",
+      "description": "三个角对应相等的两个三角形只是相似，大小不一定相等（如放大缩小的图形）。"
+    },
+    {
+      "id": "kp_0234",
+      "name": "判定方法的选择策略",
+      "type": "section",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0219",
+      "description": ""
+    },
+    {
+      "id": "kp_0235",
+      "name": "详细策略表",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0234",
+      "description": ""
+    },
+    {
+      "id": "kp_0236",
+      "name": "全等三角形常见模型",
+      "type": "section",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0219",
+      "description": ""
+    },
+    {
+      "id": "kp_0237",
+      "name": "1. 平移型",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0236",
+      "description": ""
+    },
+    {
+      "id": "kp_0238",
+      "name": "2. 对称型（翻折型）",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0236",
+      "description": ""
+    },
+    {
+      "id": "kp_0239",
+      "name": "3. 旋转型",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0236",
+      "description": ""
+    },
+    {
+      "id": "kp_0240",
+      "name": "4. 一线三等角型（K型图）",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0236",
+      "description": ""
+    },
+    {
+      "id": "kp_0241",
+      "name": "常见模型总结表",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0236",
+      "description": ""
+    },
+    {
+      "id": "kp_0242",
+      "name": "角平分线的性质与判定",
+      "type": "section",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0219",
+      "description": ""
+    },
+    {
+      "id": "kp_0243",
+      "name": "角平分线的性质定理",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0242",
+      "description": ""
+    },
+    {
+      "id": "kp_0244",
+      "name": "定理内容",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0243",
+      "description": "角平分线上的点，到角两边的距离相等。"
+    },
+    {
+      "id": "kp_0245",
+      "name": "数学表达",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0243",
+      "description": "若 OC 平分 ∠AOB，P 在 OC 上，PD⊥OA 于 D，PE⊥OB 于 E，则 PD = PE。"
+    },
+    {
+      "id": "kp_0246",
+      "name": "角平分线的判定定理",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0242",
+      "description": ""
+    },
+    {
+      "id": "kp_0247",
+      "name": "定理内容",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0246",
+      "description": "角的内部，到角两边距离相等的点，在这个角的平分线上。"
+    },
+    {
+      "id": "kp_0248",
+      "name": "数学表达",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0246",
+      "description": "若 P 为 ∠AOB 内部一点，PD⊥OA 于 D，PE⊥OB 于 E，且 PD = PE，则 OP 平分 ∠AOB，即 ∠AOP = ∠BOP。"
+    },
+    {
+      "id": "kp_0249",
+      "name": "三角形中的角平分线",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0242",
+      "description": ""
+    },
+    {
+      "id": "kp_0250",
+      "name": "用全等证明线段相等和角相等",
+      "type": "section",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0219",
+      "description": ""
+    },
+    {
+      "id": "kp_0251",
+      "name": "基本证明思路",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0250",
+      "description": ""
+    },
+    {
+      "id": "kp_0252",
+      "name": "典型证明路径",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0250",
+      "description": ""
+    },
+    {
+      "id": "kp_0253",
+      "name": "常见辅助线添加技巧",
+      "type": "section",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0219",
+      "description": ""
+    },
+    {
+      "id": "kp_0254",
+      "name": "1. 倍长中线法",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0253",
+      "description": ""
+    },
+    {
+      "id": "kp_0255",
+      "name": "2. 截长补短法",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0253",
+      "description": ""
+    },
+    {
+      "id": "kp_0256",
+      "name": "截长法",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0255",
+      "description": "在较长线段上截取一段等于较短线段，证明余下部分等于另一线段。"
+    },
+    {
+      "id": "kp_0257",
+      "name": "补短法",
+      "type": "knowledge_point",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0255",
+      "description": "将较短线段延长，使其与另一线段之和等于较长线段，证明延长后的线段等于目标线段。"
+    },
+    {
+      "id": "kp_0258",
+      "name": "中考高频考查形式",
+      "type": "section",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0219",
+      "description": ""
+    },
+    {
+      "id": "kp_0259",
+      "name": "考查形式一览",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0258",
+      "description": ""
+    },
+    {
+      "id": "kp_0260",
+      "name": "高频命题方向",
+      "type": "subsection",
+      "chapter": 16,
+      "chapter_name": "全等三角形",
+      "domain": "图形与几何",
+      "parent": "kp_0258",
+      "description": ""
+    },
+    {
+      "id": "kp_0261",
+      "name": "相似三角形（含位似）",
+      "type": "chapter",
+      "chapter": 17,
+      "chapter_name": "相似三角形（含位似）",
+      "domain": "图形与几何",
+      "parent": null,
+      "description": "第17章"
+    },
+    {
+      "id": "kp_0262",
+      "name": "比例的基本性质",
+      "type": "section",
+      "chapter": 17,
+      "chapter_name": "相似三角形（含位似）",
+      "domain": "图形与几何",
+      "parent": "kp_0261",
+      "description": ""
+    },
+    {
+      "id": "kp_0263",
+      "name": "黄金分割",
+      "type": "section",
+      "chapter": 17,
+      "chapter_name": "相似三角形（含位似）",
+      "domain": "图形与几何",
+      "parent": "kp_0261",
+      "description": ""
+    },
+    {
+      "id": "kp_0264",
+      "name": "平行线分线段成比例",
+      "type": "section",
+      "chapter": 17,
+      "chapter_name": "相似三角形（含位似）",
+      "domain": "图形与几何",
+      "parent": "kp_0261",
+      "description": ""
+    },
+    {
+      "id": "kp_0265",
+      "name": "相似三角形的判定",
+      "type": "section",
+      "chapter": 17,
+      "chapter_name": "相似三角形（含位似）",
+      "domain": "图形与几何",
+      "parent": "kp_0261",
+      "description": ""
+    },
+    {
+      "id": "kp_0266",
+      "name": "相似三角形的性质",
+      "type": "section",
+      "chapter": 17,
+      "chapter_name": "相似三角形（含位似）",
+      "domain": "图形与几何",
+      "parent": "kp_0261",
+      "description": ""
+    },
+    {
+      "id": "kp_0267",
+      "name": "位似图形",
+      "type": "section",
+      "chapter": 17,
+      "chapter_name": "相似三角形（含位似）",
+      "domain": "图形与几何",
+      "parent": "kp_0261",
+      "description": ""
+    },
+    {
+      "id": "kp_0268",
+      "name": "定义",
+      "type": "knowledge_point",
+      "chapter": 17,
+      "chapter_name": "相似三角形（含位似）",
+      "domain": "图形与几何",
+      "parent": "kp_0267",
+      "description": "两个多边形对应顶点连线经过同一点，且对应点到位似中心的距离之比等于位似比"
+    },
+    {
+      "id": "kp_0269",
+      "name": "性质",
+      "type": "knowledge_point",
+      "chapter": 17,
+      "chapter_name": "相似三角形（含位似）",
+      "domain": "图形与几何",
+      "parent": "kp_0267",
+      "description": "位似图形一定相似，对应边互相平行（或在同一直线上）"
+    },
+    {
+      "id": "kp_0270",
+      "name": "锐角三角函数及其应用",
+      "type": "chapter",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": null,
+      "description": "第18章"
+    },
+    {
+      "id": "kp_0271",
+      "name": "锐角三角函数的定义",
+      "type": "section",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0270",
+      "description": ""
+    },
+    {
+      "id": "kp_0272",
+      "name": "正弦（sin A）",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0271",
+      "description": "∠A的对边与斜边的比，即 `sin A = a / c`"
+    },
+    {
+      "id": "kp_0273",
+      "name": "余弦（cos A）",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0271",
+      "description": "∠A的邻边与斜边的比，即 `cos A = b / c`"
+    },
+    {
+      "id": "kp_0274",
+      "name": "正切（tan A）",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0271",
+      "description": "∠A的对边与邻边的比，即 `tan A = a / b`"
+    },
+    {
+      "id": "kp_0275",
+      "name": "余切（cot A）",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0271",
+      "description": "∠A的邻边与对边的比，即 `cot A = b / a`（了解）"
+    },
+    {
+      "id": "kp_0276",
+      "name": "特殊角的三角函数值",
+      "type": "section",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0270",
+      "description": ""
+    },
+    {
+      "id": "kp_0277",
+      "name": "三角函数之间的关系",
+      "type": "section",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0270",
+      "description": ""
+    },
+    {
+      "id": "kp_0278",
+      "name": "平方关系",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0277",
+      "description": "`sin²A + cos²A = 1`（同角的正弦平方与余弦平方之和等于1）"
+    },
+    {
+      "id": "kp_0279",
+      "name": "商数关系",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0277",
+      "description": "`tan A = sin A / cos A`（正切等于正弦除以余弦）"
+    },
+    {
+      "id": "kp_0280",
+      "name": "互余关系",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0277",
+      "description": "`sin A = cos(90° − A)`，`cos A = sin(90° − A)`"
+    },
+    {
+      "id": "kp_0281",
+      "name": "倒数关系",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0277",
+      "description": "`tan A · cot A = 1`"
+    },
+    {
+      "id": "kp_0282",
+      "name": "锐角三角函数的增减性",
+      "type": "section",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0270",
+      "description": ""
+    },
+    {
+      "id": "kp_0283",
+      "name": "解直角三角形",
+      "type": "section",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0270",
+      "description": ""
+    },
+    {
+      "id": "kp_0284",
+      "name": "定义与基本关系",
+      "type": "subsection",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0283",
+      "description": ""
+    },
+    {
+      "id": "kp_0285",
+      "name": "三边关系（勾股定理）",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0284",
+      "description": "`a² + b² = c²`"
+    },
+    {
+      "id": "kp_0286",
+      "name": "两锐角关系",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0284",
+      "description": "`∠A + ∠B = 90°`"
+    },
+    {
+      "id": "kp_0287",
+      "name": "边角关系",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0284",
+      "description": "`sin A = a/c`，`cos A = b/c`，`tan A = a/b`"
+    },
+    {
+      "id": "kp_0288",
+      "name": "解直角三角形的四种基本类型",
+      "type": "subsection",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0283",
+      "description": ""
+    },
+    {
+      "id": "kp_0289",
+      "name": "解直角三角形的步骤",
+      "type": "subsection",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0283",
+      "description": ""
+    },
+    {
+      "id": "kp_0290",
+      "name": "实际应用——常考题型",
+      "type": "section",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0270",
+      "description": ""
+    },
+    {
+      "id": "kp_0291",
+      "name": "1. 仰角与俯角问题",
+      "type": "subsection",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0290",
+      "description": ""
+    },
+    {
+      "id": "kp_0292",
+      "name": "仰角",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0291",
+      "description": "视线在水平线上方时，视线与水平线的夹角"
+    },
+    {
+      "id": "kp_0293",
+      "name": "俯角",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0291",
+      "description": "视线在水平线下方时，视线与水平线的夹角"
+    },
+    {
+      "id": "kp_0294",
+      "name": "2. 测高问题",
+      "type": "subsection",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0290",
+      "description": ""
+    },
+    {
+      "id": "kp_0295",
+      "name": "3. 测距问题（不可直达的两点）",
+      "type": "subsection",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0290",
+      "description": ""
+    },
+    {
+      "id": "kp_0296",
+      "name": "4. 坡度（坡比）问题",
+      "type": "subsection",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0290",
+      "description": ""
+    },
+    {
+      "id": "kp_0297",
+      "name": "坡度（坡比）i",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0296",
+      "description": "坡面的铅直高度h与水平宽度l的比，即 `i = h : l = tan α`（α为坡角）"
+    },
+    {
+      "id": "kp_0298",
+      "name": "坡角α",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0296",
+      "description": "坡面与水平面的夹角"
+    },
+    {
+      "id": "kp_0299",
+      "name": "5. 方向角问题",
+      "type": "subsection",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0290",
+      "description": ""
+    },
+    {
+      "id": "kp_0300",
+      "name": "方向角",
+      "type": "knowledge_point",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0299",
+      "description": "从正北或正南方向起，向东或向西旋转到目标方向线所形成的锐角"
+    },
+    {
+      "id": "kp_0301",
+      "name": "6. 仰角俯角组合问题",
+      "type": "subsection",
+      "chapter": 18,
+      "chapter_name": "锐角三角函数及其应用",
+      "domain": "图形与几何",
+      "parent": "kp_0290",
+      "description": ""
+    },
+    {
+      "id": "kp_0302",
+      "name": "平行四边形与多边形",
+      "type": "chapter",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": null,
+      "description": "第19章"
+    },
+    {
+      "id": "kp_0303",
+      "name": "多边形的概念",
+      "type": "section",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0302",
+      "description": ""
+    },
+    {
+      "id": "kp_0304",
+      "name": "多边形",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0303",
+      "description": "在平面内，由若干条不在同一直线上的线段首尾顺次相接组成的封闭图形叫做多边形。"
+    },
+    {
+      "id": "kp_0305",
+      "name": "边",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0303",
+      "description": "组成多边形的各条线段叫做多边形的边。"
+    },
+    {
+      "id": "kp_0306",
+      "name": "顶点",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0303",
+      "description": "相邻两条边的公共端点叫做多边形的顶点。"
+    },
+    {
+      "id": "kp_0307",
+      "name": "内角",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0303",
+      "description": "多边形相邻两边组成的角叫做多边形的内角。"
+    },
+    {
+      "id": "kp_0308",
+      "name": "外角",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0303",
+      "description": "多边形的一边与它的邻边的延长线组成的角叫做多边形的外角。"
+    },
+    {
+      "id": "kp_0309",
+      "name": "对角线",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0303",
+      "description": "连接多边形不相邻的两个顶点的线段叫做多边形的对角线。"
+    },
+    {
+      "id": "kp_0310",
+      "name": "n边形的内角和",
+      "type": "section",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0302",
+      "description": ""
+    },
+    {
+      "id": "kp_0311",
+      "name": "n边形内角和公式",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0310",
+      "description": "**(n − 2) × 180°**（n ≥ 3）"
+    },
+    {
+      "id": "kp_0312",
+      "name": "多边形的外角和",
+      "type": "section",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0302",
+      "description": ""
+    },
+    {
+      "id": "kp_0313",
+      "name": "多边形的对角线条数",
+      "type": "section",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0302",
+      "description": ""
+    },
+    {
+      "id": "kp_0314",
+      "name": "n边形对角线条数公式",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0313",
+      "description": "**n(n − 3) / 2**（n ≥ 3）"
+    },
+    {
+      "id": "kp_0315",
+      "name": "正多边形",
+      "type": "section",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0302",
+      "description": ""
+    },
+    {
+      "id": "kp_0316",
+      "name": "正多边形",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0315",
+      "description": "各边相等、各角也相等的多边形叫做正多边形。"
+    },
+    {
+      "id": "kp_0317",
+      "name": "性质",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0315",
+      "description": ""
+    },
+    {
+      "id": "kp_0318",
+      "name": "平行四边形的定义与性质",
+      "type": "section",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0302",
+      "description": ""
+    },
+    {
+      "id": "kp_0319",
+      "name": "平行四边形",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0318",
+      "description": "两组对边分别平行的四边形叫做平行四边形。"
+    },
+    {
+      "id": "kp_0320",
+      "name": "平行四边形的判定定理",
+      "type": "section",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0302",
+      "description": ""
+    },
+    {
+      "id": "kp_0321",
+      "name": "平行四边形的面积",
+      "type": "section",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0302",
+      "description": ""
+    },
+    {
+      "id": "kp_0322",
+      "name": "面积公式",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0321",
+      "description": "**S = 底 × 高 = ah**"
+    },
+    {
+      "id": "kp_0323",
+      "name": "拓展",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0321",
+      "description": "平行四边形的面积也可用对角线及其夹角表示：S = (1/2)·d₁·d₂·sinθ（d₁、d₂为对角线长，θ为对角线夹角）。"
+    },
+    {
+      "id": "kp_0324",
+      "name": "平行线之间的距离",
+      "type": "section",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0302",
+      "description": ""
+    },
+    {
+      "id": "kp_0325",
+      "name": "定义",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0324",
+      "description": "两条平行线中，一条直线上任意一点到另一条直线的距离，叫做这两条平行线之间的距离。"
+    },
+    {
+      "id": "kp_0326",
+      "name": "性质",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0324",
+      "description": "平行线之间的距离处处相等。"
+    },
+    {
+      "id": "kp_0327",
+      "name": "三角形的中位线",
+      "type": "section",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0302",
+      "description": ""
+    },
+    {
+      "id": "kp_0328",
+      "name": "定义",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0327",
+      "description": "连接三角形两边中点的线段叫做三角形的中位线。一个三角形有**三条**中位线。"
+    },
+    {
+      "id": "kp_0329",
+      "name": "三角形的中位线定理",
+      "type": "subsection",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0327",
+      "description": ""
+    },
+    {
+      "id": "kp_0330",
+      "name": "定理",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0329",
+      "description": "三角形的中位线**平行于**第三边，且**等于第三边的一半**。"
+    },
+    {
+      "id": "kp_0331",
+      "name": "中位线与中线的区别",
+      "type": "subsection",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0327",
+      "description": ""
+    },
+    {
+      "id": "kp_0332",
+      "name": "多边形内角和与外角和的应用",
+      "type": "section",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0302",
+      "description": ""
+    },
+    {
+      "id": "kp_0333",
+      "name": "常见题型与解题策略",
+      "type": "subsection",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0332",
+      "description": ""
+    },
+    {
+      "id": "kp_0334",
+      "name": "\"已知边数求内角和\"",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0333",
+      "description": "直接代入 (n − 2) × 180°。例：十二边形的内角和 = (12 − 2) × 180° = 1800°。"
+    },
+    {
+      "id": "kp_0335",
+      "name": "\"已知内角和求边数\"",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0333",
+      "description": "逆用公式 n = (内角和 ÷ 180°) + 2。例：内角和为1440° → n = 1440° ÷ 180° + 2 = 10（十边形）。"
+    },
+    {
+      "id": "kp_0336",
+      "name": "\"利用外角和求边数\"",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0333",
+      "description": "外角和恒为360°。正多边形每个外角为30° → n = 360° ÷ 30° = 12（正十二边形）。"
+    },
+    {
+      "id": "kp_0337",
+      "name": "\"已知对角线条数求边数\"",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0333",
+      "description": "逆用公式 n(n − 3)/2 = 对角线条数 → 解二次方程。例：对角线共35条 → n(n − 3)/2 = 35 → n = 10（十边形）。"
+    },
+    {
+      "id": "kp_0338",
+      "name": "\"截角问题\"",
+      "type": "knowledge_point",
+      "chapter": 19,
+      "chapter_name": "平行四边形与多边形",
+      "domain": "图形与几何",
+      "parent": "kp_0333",
+      "description": "一个n边形截去一个角后，剩余多边形的边数可能是 **n − 1、n 或 n + 1**："
+    },
+    {
+      "id": "kp_0339",
+      "name": "矩形、菱形、正方形",
+      "type": "chapter",
+      "chapter": 20,
+      "chapter_name": "矩形、菱形、正方形",
+      "domain": "图形与几何",
+      "parent": null,
+      "description": "第20章"
+    },
+    {
+      "id": "kp_0340",
+      "name": "矩形",
+      "type": "section",
+      "chapter": 20,
+      "chapter_name": "矩形、菱形、正方形",
+      "domain": "图形与几何",
+      "parent": "kp_0339",
+      "description": ""
+    },
+    {
+      "id": "kp_0341",
+      "name": "性质",
+      "type": "knowledge_point",
+      "chapter": 20,
+      "chapter_name": "矩形、菱形、正方形",
+      "domain": "图形与几何",
+      "parent": "kp_0340",
+      "description": ""
+    },
+    {
+      "id": "kp_0342",
+      "name": "判定",
+      "type": "knowledge_point",
+      "chapter": 20,
+      "chapter_name": "矩形、菱形、正方形",
+      "domain": "图形与几何",
+      "parent": "kp_0340",
+      "description": ""
+    },
+    {
+      "id": "kp_0343",
+      "name": "面积",
+      "type": "knowledge_point",
+      "chapter": 20,
+      "chapter_name": "矩形、菱形、正方形",
+      "domain": "图形与几何",
+      "parent": "kp_0340",
+      "description": "S = 长 × 宽"
+    },
+    {
+      "id": "kp_0344",
+      "name": "菱形",
+      "type": "section",
+      "chapter": 20,
+      "chapter_name": "矩形、菱形、正方形",
+      "domain": "图形与几何",
+      "parent": "kp_0339",
+      "description": ""
+    },
+    {
+      "id": "kp_0345",
+      "name": "性质",
+      "type": "knowledge_point",
+      "chapter": 20,
+      "chapter_name": "矩形、菱形、正方形",
+      "domain": "图形与几何",
+      "parent": "kp_0344",
+      "description": ""
+    },
+    {
+      "id": "kp_0346",
+      "name": "判定",
+      "type": "knowledge_point",
+      "chapter": 20,
+      "chapter_name": "矩形、菱形、正方形",
+      "domain": "图形与几何",
+      "parent": "kp_0344",
+      "description": ""
+    },
+    {
+      "id": "kp_0347",
+      "name": "面积",
+      "type": "knowledge_point",
+      "chapter": 20,
+      "chapter_name": "矩形、菱形、正方形",
+      "domain": "图形与几何",
+      "parent": "kp_0344",
+      "description": "S = 1/2 × 对角线乘积"
+    },
+    {
+      "id": "kp_0348",
+      "name": "正方形",
+      "type": "section",
+      "chapter": 20,
+      "chapter_name": "矩形、菱形、正方形",
+      "domain": "图形与几何",
+      "parent": "kp_0339",
+      "description": ""
+    },
+    {
+      "id": "kp_0349",
+      "name": "性质",
+      "type": "knowledge_point",
+      "chapter": 20,
+      "chapter_name": "矩形、菱形、正方形",
+      "domain": "图形与几何",
+      "parent": "kp_0348",
+      "description": "具备矩形和菱形的所有性质"
+    },
+    {
+      "id": "kp_0350",
+      "name": "判定",
+      "type": "knowledge_point",
+      "chapter": 20,
+      "chapter_name": "矩形、菱形、正方形",
+      "domain": "图形与几何",
+      "parent": "kp_0348",
+      "description": ""
+    },
+    {
+      "id": "kp_0351",
+      "name": "面积",
+      "type": "knowledge_point",
+      "chapter": 20,
+      "chapter_name": "矩形、菱形、正方形",
+      "domain": "图形与几何",
+      "parent": "kp_0348",
+      "description": "S = a²"
+    },
+    {
+      "id": "kp_0352",
+      "name": "圆的基本性质",
+      "type": "chapter",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": null,
+      "description": "第21章"
+    },
+    {
+      "id": "kp_0353",
+      "name": "基本概念",
+      "type": "section",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0352",
+      "description": ""
+    },
+    {
+      "id": "kp_0354",
+      "name": "弧",
+      "type": "knowledge_point",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0353",
+      "description": "圆上任意两点间的部分（优弧、劣弧）"
+    },
+    {
+      "id": "kp_0355",
+      "name": "弦",
+      "type": "knowledge_point",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0353",
+      "description": "连接圆上任意两点的线段，直径是最长的弦"
+    },
+    {
+      "id": "kp_0356",
+      "name": "圆心角",
+      "type": "knowledge_point",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0353",
+      "description": "顶点在圆心的角"
+    },
+    {
+      "id": "kp_0357",
+      "name": "圆周角",
+      "type": "knowledge_point",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0353",
+      "description": "顶点在圆上，两边与圆相交的角"
+    },
+    {
+      "id": "kp_0358",
+      "name": "弦、弧、圆心角的关系",
+      "type": "section",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0352",
+      "description": ""
+    },
+    {
+      "id": "kp_0359",
+      "name": "圆周角定理",
+      "type": "section",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0352",
+      "description": ""
+    },
+    {
+      "id": "kp_0360",
+      "name": "推论",
+      "type": "knowledge_point",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0359",
+      "description": ""
+    },
+    {
+      "id": "kp_0361",
+      "name": "三角形的外接圆",
+      "type": "section",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0352",
+      "description": ""
+    },
+    {
+      "id": "kp_0362",
+      "name": "垂径定理",
+      "type": "section",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0352",
+      "description": ""
+    },
+    {
+      "id": "kp_0363",
+      "name": "推论",
+      "type": "knowledge_point",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0362",
+      "description": "知二推三（在五个条件中，任意两个成立，其余三个成立）"
+    },
+    {
+      "id": "kp_0364",
+      "name": "垂径定理的简单应用",
+      "type": "section",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0352",
+      "description": ""
+    },
+    {
+      "id": "kp_0365",
+      "name": "圆内接四边形",
+      "type": "section",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0352",
+      "description": ""
+    },
+    {
+      "id": "kp_0366",
+      "name": "正多边形与圆",
+      "type": "section",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0352",
+      "description": ""
+    },
+    {
+      "id": "kp_0367",
+      "name": "点、直线与圆的位置关系",
+      "type": "chapter",
+      "chapter": 22,
+      "chapter_name": "点、直线与圆的位置关系",
+      "domain": "图形与几何",
+      "parent": null,
+      "description": "第22章"
+    },
+    {
+      "id": "kp_0368",
+      "name": "点与圆的位置关系（d 为点到圆心距离，r 为半径）",
+      "type": "section",
+      "chapter": 22,
+      "chapter_name": "点、直线与圆的位置关系",
+      "domain": "图形与几何",
+      "parent": "kp_0367",
+      "description": ""
+    },
+    {
+      "id": "kp_0369",
+      "name": "直线与圆的位置关系",
+      "type": "section",
+      "chapter": 22,
+      "chapter_name": "点、直线与圆的位置关系",
+      "domain": "图形与几何",
+      "parent": "kp_0367",
+      "description": ""
+    },
+    {
+      "id": "kp_0370",
+      "name": "切线的性质与判定",
+      "type": "section",
+      "chapter": 22,
+      "chapter_name": "点、直线与圆的位置关系",
+      "domain": "图形与几何",
+      "parent": "kp_0367",
+      "description": ""
+    },
+    {
+      "id": "kp_0371",
+      "name": "性质",
+      "type": "knowledge_point",
+      "chapter": 22,
+      "chapter_name": "点、直线与圆的位置关系",
+      "domain": "图形与几何",
+      "parent": "kp_0370",
+      "description": ""
+    },
+    {
+      "id": "kp_0372",
+      "name": "判定",
+      "type": "knowledge_point",
+      "chapter": 22,
+      "chapter_name": "点、直线与圆的位置关系",
+      "domain": "图形与几何",
+      "parent": "kp_0370",
+      "description": "经过半径的外端且垂直于这条半径的直线是圆的切线"
+    },
+    {
+      "id": "kp_0373",
+      "name": "切线长定理",
+      "type": "section",
+      "chapter": 22,
+      "chapter_name": "点、直线与圆的位置关系",
+      "domain": "图形与几何",
+      "parent": "kp_0367",
+      "description": ""
+    },
+    {
+      "id": "kp_0374",
+      "name": "三角形的内切圆",
+      "type": "section",
+      "chapter": 22,
+      "chapter_name": "点、直线与圆的位置关系",
+      "domain": "图形与几何",
+      "parent": "kp_0367",
+      "description": ""
+    },
+    {
+      "id": "kp_0375",
+      "name": "扇形的相关计算（含圆锥）",
+      "type": "chapter",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": null,
+      "description": "第23章"
+    },
+    {
+      "id": "kp_0376",
+      "name": "弧长公式",
+      "type": "section",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0375",
+      "description": ""
+    },
+    {
+      "id": "kp_0377",
+      "name": "l",
+      "type": "knowledge_point",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0376",
+      "description": "弧长"
+    },
+    {
+      "id": "kp_0378",
+      "name": "n",
+      "type": "knowledge_point",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0376",
+      "description": "圆心角的度数"
+    },
+    {
+      "id": "kp_0379",
+      "name": "R",
+      "type": "knowledge_point",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0376",
+      "description": "圆的半径"
+    },
+    {
+      "id": "kp_0380",
+      "name": "扇形面积公式",
+      "type": "section",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0375",
+      "description": ""
+    },
+    {
+      "id": "kp_0381",
+      "name": "弓形面积（了解）",
+      "type": "section",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0375",
+      "description": ""
+    },
+    {
+      "id": "kp_0382",
+      "name": "圆柱",
+      "type": "section",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0375",
+      "description": ""
+    },
+    {
+      "id": "kp_0383",
+      "name": "圆柱的展开图",
+      "type": "subsection",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0382",
+      "description": ""
+    },
+    {
+      "id": "kp_0384",
+      "name": "圆柱的侧面积与全面积",
+      "type": "subsection",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0382",
+      "description": ""
+    },
+    {
+      "id": "kp_0385",
+      "name": "侧面积",
+      "type": "knowledge_point",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0384",
+      "description": "`S侧 = 2πr × h = 2πrh`"
+    },
+    {
+      "id": "kp_0386",
+      "name": "全面积（表面积）",
+      "type": "knowledge_point",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0384",
+      "description": "`S全 = S侧 + 2S底 = 2πrh + 2πr² = 2πr(h + r)`"
+    },
+    {
+      "id": "kp_0387",
+      "name": "圆锥",
+      "type": "section",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0375",
+      "description": ""
+    },
+    {
+      "id": "kp_0388",
+      "name": "圆锥的构成",
+      "type": "subsection",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0387",
+      "description": ""
+    },
+    {
+      "id": "kp_0389",
+      "name": "底面",
+      "type": "knowledge_point",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0388",
+      "description": "一个圆，半径为r"
+    },
+    {
+      "id": "kp_0390",
+      "name": "侧面",
+      "type": "knowledge_point",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0388",
+      "description": "一个曲面"
+    },
+    {
+      "id": "kp_0391",
+      "name": "母线（l）",
+      "type": "knowledge_point",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0388",
+      "description": "连接圆锥顶点与底面圆周上任意一点的线段。所有母线长度相等。"
+    },
+    {
+      "id": "kp_0392",
+      "name": "高（h）",
+      "type": "knowledge_point",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0388",
+      "description": "圆锥顶点到底面圆心的距离"
+    },
+    {
+      "id": "kp_0393",
+      "name": "关系",
+      "type": "knowledge_point",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0388",
+      "description": "`r² + h² = l²`（勾股定理，r、h、l构成直角三角形）"
+    },
+    {
+      "id": "kp_0394",
+      "name": "圆锥的展开图",
+      "type": "subsection",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0387",
+      "description": ""
+    },
+    {
+      "id": "kp_0395",
+      "name": "圆锥的侧面积公式推导",
+      "type": "subsection",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0387",
+      "description": ""
+    },
+    {
+      "id": "kp_0396",
+      "name": "侧面积公式",
+      "type": "knowledge_point",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0395",
+      "description": "`S侧 = πrl`（r为底面半径，l为母线长）"
+    },
+    {
+      "id": "kp_0397",
+      "name": "全面积公式",
+      "type": "knowledge_point",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0395",
+      "description": "`S全 = S侧 + S底 = πrl + πr² = πr(l + r)`"
+    },
+    {
+      "id": "kp_0398",
+      "name": "侧面展开扇形的圆心角",
+      "type": "subsection",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0387",
+      "description": ""
+    },
+    {
+      "id": "kp_0399",
+      "name": "圆柱与圆锥的对比",
+      "type": "section",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0375",
+      "description": ""
+    },
+    {
+      "id": "kp_0400",
+      "name": "常见计算题型",
+      "type": "section",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0375",
+      "description": ""
+    },
+    {
+      "id": "kp_0401",
+      "name": "1. 已知母线、半径求侧面积",
+      "type": "subsection",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0400",
+      "description": ""
+    },
+    {
+      "id": "kp_0402",
+      "name": "2. 已知侧面积反求半径或母线",
+      "type": "subsection",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0400",
+      "description": ""
+    },
+    {
+      "id": "kp_0403",
+      "name": "3. 扇形与圆锥的转化（\"围成\"问题）",
+      "type": "subsection",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0400",
+      "description": ""
+    },
+    {
+      "id": "kp_0404",
+      "name": "4. 最短路径问题（\"蚂蚁爬行\"问题）",
+      "type": "subsection",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0400",
+      "description": ""
+    },
+    {
+      "id": "kp_0405",
+      "name": "5. 组合图形中的扇形面积（与三角形、矩形等结合）",
+      "type": "subsection",
+      "chapter": 23,
+      "chapter_name": "扇形的相关计算（含圆锥）",
+      "domain": "图形与几何",
+      "parent": "kp_0400",
+      "description": ""
+    },
+    {
+      "id": "kp_0406",
+      "name": "视图与投影（含尺规作图）",
+      "type": "chapter",
+      "chapter": 24,
+      "chapter_name": "视图与投影（含尺规作图）",
+      "domain": "图形与几何",
+      "parent": null,
+      "description": "第24章"
+    },
+    {
+      "id": "kp_0407",
+      "name": "投影",
+      "type": "section",
+      "chapter": 24,
+      "chapter_name": "视图与投影（含尺规作图）",
+      "domain": "图形与几何",
+      "parent": "kp_0406",
+      "description": ""
+    },
+    {
+      "id": "kp_0408",
+      "name": "平行投影",
+      "type": "knowledge_point",
+      "chapter": 24,
+      "chapter_name": "视图与投影（含尺规作图）",
+      "domain": "图形与几何",
+      "parent": "kp_0407",
+      "description": "平行光照射下的投影"
+    },
+    {
+      "id": "kp_0409",
+      "name": "中心投影",
+      "type": "knowledge_point",
+      "chapter": 24,
+      "chapter_name": "视图与投影（含尺规作图）",
+      "domain": "图形与几何",
+      "parent": "kp_0407",
+      "description": "点光源照射下的投影"
+    },
+    {
+      "id": "kp_0410",
+      "name": "三视图",
+      "type": "section",
+      "chapter": 24,
+      "chapter_name": "视图与投影（含尺规作图）",
+      "domain": "图形与几何",
+      "parent": "kp_0406",
+      "description": ""
+    },
+    {
+      "id": "kp_0411",
+      "name": "主视图",
+      "type": "knowledge_point",
+      "chapter": 24,
+      "chapter_name": "视图与投影（含尺规作图）",
+      "domain": "图形与几何",
+      "parent": "kp_0410",
+      "description": "从正面看"
+    },
+    {
+      "id": "kp_0412",
+      "name": "左视图",
+      "type": "knowledge_point",
+      "chapter": 24,
+      "chapter_name": "视图与投影（含尺规作图）",
+      "domain": "图形与几何",
+      "parent": "kp_0410",
+      "description": "从左面看"
+    },
+    {
+      "id": "kp_0413",
+      "name": "俯视图",
+      "type": "knowledge_point",
+      "chapter": 24,
+      "chapter_name": "视图与投影（含尺规作图）",
+      "domain": "图形与几何",
+      "parent": "kp_0410",
+      "description": "从上面看"
+    },
+    {
+      "id": "kp_0414",
+      "name": "三视图画法规则",
+      "type": "section",
+      "chapter": 24,
+      "chapter_name": "视图与投影（含尺规作图）",
+      "domain": "图形与几何",
+      "parent": "kp_0406",
+      "description": ""
+    },
+    {
+      "id": "kp_0415",
+      "name": "常见几何体的三视图与展开图",
+      "type": "section",
+      "chapter": 24,
+      "chapter_name": "视图与投影（含尺规作图）",
+      "domain": "图形与几何",
+      "parent": "kp_0406",
+      "description": ""
+    },
+    {
+      "id": "kp_0416",
+      "name": "正方体表面展开图的常见类型",
+      "type": "section",
+      "chapter": 24,
+      "chapter_name": "视图与投影（含尺规作图）",
+      "domain": "图形与几何",
+      "parent": "kp_0406",
+      "description": ""
+    },
+    {
+      "id": "kp_0417",
+      "name": "尺规作图",
+      "type": "section",
+      "chapter": 24,
+      "chapter_name": "视图与投影（含尺规作图）",
+      "domain": "图形与几何",
+      "parent": "kp_0406",
+      "description": ""
+    },
+    {
+      "id": "kp_0418",
+      "name": "基本作图",
+      "type": "subsection",
+      "chapter": 24,
+      "chapter_name": "视图与投影（含尺规作图）",
+      "domain": "图形与几何",
+      "parent": "kp_0417",
+      "description": ""
+    },
+    {
+      "id": "kp_0419",
+      "name": "图形的对称（含折叠）、平移与旋转",
+      "type": "chapter",
+      "chapter": 25,
+      "chapter_name": "图形的对称（含折叠）、平移与旋转",
+      "domain": "图形与几何",
+      "parent": null,
+      "description": "第25章"
+    },
+    {
+      "id": "kp_0420",
+      "name": "轴对称图形与中心对称图形",
+      "type": "section",
+      "chapter": 25,
+      "chapter_name": "图形的对称（含折叠）、平移与旋转",
+      "domain": "图形与几何",
+      "parent": "kp_0419",
+      "description": ""
+    },
+    {
+      "id": "kp_0421",
+      "name": "轴对称与中心对称",
+      "type": "section",
+      "chapter": 25,
+      "chapter_name": "图形的对称（含折叠）、平移与旋转",
+      "domain": "图形与几何",
+      "parent": "kp_0419",
+      "description": ""
+    },
+    {
+      "id": "kp_0422",
+      "name": "折叠（轴对称变换）",
+      "type": "section",
+      "chapter": 25,
+      "chapter_name": "图形的对称（含折叠）、平移与旋转",
+      "domain": "图形与几何",
+      "parent": "kp_0419",
+      "description": ""
+    },
+    {
+      "id": "kp_0423",
+      "name": "平移",
+      "type": "section",
+      "chapter": 25,
+      "chapter_name": "图形的对称（含折叠）、平移与旋转",
+      "domain": "图形与几何",
+      "parent": "kp_0419",
+      "description": ""
+    },
+    {
+      "id": "kp_0424",
+      "name": "要素",
+      "type": "knowledge_point",
+      "chapter": 25,
+      "chapter_name": "图形的对称（含折叠）、平移与旋转",
+      "domain": "图形与几何",
+      "parent": "kp_0423",
+      "description": "方向、距离"
+    },
+    {
+      "id": "kp_0425",
+      "name": "性质",
+      "type": "knowledge_point",
+      "chapter": 25,
+      "chapter_name": "图形的对称（含折叠）、平移与旋转",
+      "domain": "图形与几何",
+      "parent": "kp_0423",
+      "description": ""
+    },
+    {
+      "id": "kp_0426",
+      "name": "旋转",
+      "type": "section",
+      "chapter": 25,
+      "chapter_name": "图形的对称（含折叠）、平移与旋转",
+      "domain": "图形与几何",
+      "parent": "kp_0419",
+      "description": ""
+    },
+    {
+      "id": "kp_0427",
+      "name": "要素",
+      "type": "knowledge_point",
+      "chapter": 25,
+      "chapter_name": "图形的对称（含折叠）、平移与旋转",
+      "domain": "图形与几何",
+      "parent": "kp_0426",
+      "description": "旋转中心、方向、角度"
+    },
+    {
+      "id": "kp_0428",
+      "name": "性质",
+      "type": "knowledge_point",
+      "chapter": 25,
+      "chapter_name": "图形的对称（含折叠）、平移与旋转",
+      "domain": "图形与几何",
+      "parent": "kp_0426",
+      "description": ""
+    },
+    {
+      "id": "kp_0429",
+      "name": "统计",
+      "type": "chapter",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": null,
+      "description": "第26章"
+    },
+    {
+      "id": "kp_0430",
+      "name": "调查方式",
+      "type": "section",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0429",
+      "description": ""
+    },
+    {
+      "id": "kp_0431",
+      "name": "相关概念",
+      "type": "section",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0429",
+      "description": ""
+    },
+    {
+      "id": "kp_0432",
+      "name": "总体",
+      "type": "knowledge_point",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0431",
+      "description": "全体考察对象"
+    },
+    {
+      "id": "kp_0433",
+      "name": "个体",
+      "type": "knowledge_point",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0431",
+      "description": "每一个考察对象"
+    },
+    {
+      "id": "kp_0434",
+      "name": "样本",
+      "type": "knowledge_point",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0431",
+      "description": "抽取的部分个体"
+    },
+    {
+      "id": "kp_0435",
+      "name": "样本容量",
+      "type": "knowledge_point",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0431",
+      "description": "样本中个体数目"
+    },
+    {
+      "id": "kp_0436",
+      "name": "平均数",
+      "type": "section",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0429",
+      "description": ""
+    },
+    {
+      "id": "kp_0437",
+      "name": "算术平均数",
+      "type": "knowledge_point",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0436",
+      "description": "x̄ = (x₁ + x₂ + ... + xₙ)/n"
+    },
+    {
+      "id": "kp_0438",
+      "name": "加权平均数",
+      "type": "knowledge_point",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0436",
+      "description": "x̄ = (x₁f₁ + x₂f₂ + ... + xₙfₙ)/n（f 为频数，n = Σf）"
+    },
+    {
+      "id": "kp_0439",
+      "name": "中位数",
+      "type": "section",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0429",
+      "description": ""
+    },
+    {
+      "id": "kp_0440",
+      "name": "众数",
+      "type": "section",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0429",
+      "description": ""
+    },
+    {
+      "id": "kp_0441",
+      "name": "极差",
+      "type": "section",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0429",
+      "description": ""
+    },
+    {
+      "id": "kp_0442",
+      "name": "方差",
+      "type": "section",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0429",
+      "description": ""
+    },
+    {
+      "id": "kp_0443",
+      "name": "频数与频率",
+      "type": "section",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0429",
+      "description": ""
+    },
+    {
+      "id": "kp_0444",
+      "name": "频数",
+      "type": "knowledge_point",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0443",
+      "description": "某个对象出现的次数"
+    },
+    {
+      "id": "kp_0445",
+      "name": "频率",
+      "type": "knowledge_point",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0443",
+      "description": "频数 / 数据总数"
+    },
+    {
+      "id": "kp_0446",
+      "name": "统计图的特点",
+      "type": "section",
+      "chapter": 26,
+      "chapter_name": "统计",
+      "domain": "统计与概率",
+      "parent": "kp_0429",
+      "description": ""
+    },
+    {
+      "id": "kp_0447",
+      "name": "概率",
+      "type": "chapter",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": null,
+      "description": "第27章"
+    },
+    {
+      "id": "kp_0448",
+      "name": "事件的分类",
+      "type": "section",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0447",
+      "description": ""
+    },
+    {
+      "id": "kp_0449",
+      "name": "概率的古典定义（等可能概型）",
+      "type": "section",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0447",
+      "description": ""
+    },
+    {
+      "id": "kp_0450",
+      "name": "求概率的基本方法",
+      "type": "section",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0447",
+      "description": ""
+    },
+    {
+      "id": "kp_0451",
+      "name": "1. 直接列举法",
+      "type": "subsection",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0450",
+      "description": ""
+    },
+    {
+      "id": "kp_0452",
+      "name": "2. 列表法（两步试验）",
+      "type": "subsection",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0450",
+      "description": ""
+    },
+    {
+      "id": "kp_0453",
+      "name": "3. 画树状图法（两步或多步试验）",
+      "type": "subsection",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0450",
+      "description": ""
+    },
+    {
+      "id": "kp_0454",
+      "name": "4. 用频率估计概率",
+      "type": "subsection",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0450",
+      "description": ""
+    },
+    {
+      "id": "kp_0455",
+      "name": "频率",
+      "type": "knowledge_point",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0454",
+      "description": "实际试验中得出的比值，随试验次数变化，具有随机性"
+    },
+    {
+      "id": "kp_0456",
+      "name": "概率",
+      "type": "knowledge_point",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0454",
+      "description": "理论值，是客观存在的常数，不随试验改变"
+    },
+    {
+      "id": "kp_0457",
+      "name": "游戏公平性判断",
+      "type": "section",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0447",
+      "description": ""
+    },
+    {
+      "id": "kp_0458",
+      "name": "公平",
+      "type": "knowledge_point",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0457",
+      "description": "各方获胜概率相等，即 P(A方赢) = P(B方赢)"
+    },
+    {
+      "id": "kp_0459",
+      "name": "不公平",
+      "type": "knowledge_point",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0457",
+      "description": "各方获胜概率不相等"
+    },
+    {
+      "id": "kp_0460",
+      "name": "概率与统计的综合",
+      "type": "section",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0447",
+      "description": ""
+    },
+    {
+      "id": "kp_0461",
+      "name": "几何概率初步（了解）",
+      "type": "section",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0447",
+      "description": ""
+    },
+    {
+      "id": "kp_0462",
+      "name": "概率计算常见易错汇总",
+      "type": "section",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0447",
+      "description": ""
+    },
+    {
+      "id": "kp_0463",
+      "name": "几何概型",
+      "type": "knowledge_point",
+      "chapter": 27,
+      "chapter_name": "概率",
+      "domain": "统计与概率",
+      "parent": "kp_0462",
+      "description": "P(A) = 构成事件 A 的区域长度（或面积）/ 全部结果区域长度（或面积）"
+    },
+    {
+      "id": "kp_0464",
+      "name": "一元二次方程的定义",
+      "type": "knowledge_point",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0105",
+      "description": "只含一个未知数，未知数的最高次数是2的整式方程，一般形式ax²+bx+c=0(a≠0)"
+    },
+    {
+      "id": "kp_0465",
+      "name": "二次项/一次项/常数项",
+      "type": "knowledge_point",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0105",
+      "description": ""
+    },
+    {
+      "id": "kp_0466",
+      "name": "直接开平方法",
+      "type": "knowledge_point",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0106",
+      "description": "适用于(x+h)²=k(k≥0)，开方后取±√k"
+    },
+    {
+      "id": "kp_0467",
+      "name": "因式分解法",
+      "type": "knowledge_point",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0106",
+      "description": "一边为0另一边易分解成两个一次因式，不可直接约去公因式"
+    },
+    {
+      "id": "kp_0468",
+      "name": "公式法",
+      "type": "knowledge_point",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0106",
+      "description": "x=[-b±√(b²-4ac)]/(2a)，适用所有一元二次方程"
+    },
+    {
+      "id": "kp_0469",
+      "name": "配方法",
+      "type": "knowledge_point",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0106",
+      "description": "化系数为1→常数项移右边→两边加一次项系数一半的平方→开平方"
+    },
+    {
+      "id": "kp_0470",
+      "name": "根的判别式",
+      "type": "knowledge_point",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0107",
+      "description": "Δ=b²-4ac，Δ>0两个不等实根，Δ=0两个相等实根，Δ<0无实根"
+    },
+    {
+      "id": "kp_0471",
+      "name": "韦达定理",
+      "type": "knowledge_point",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0108",
+      "description": "x₁+x₂=-b/a，x₁·x₂=c/a"
+    },
+    {
+      "id": "kp_0472",
+      "name": "增长率与下降率问题",
+      "type": "knowledge_point",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0109",
+      "description": "平均增长率a(1+x)²=b，平均下降率a(1-x)²=b"
+    },
+    {
+      "id": "kp_0473",
+      "name": "利润问题模型",
+      "type": "knowledge_point",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0110",
+      "description": "总利润=(售价-成本)×数量"
+    },
+    {
+      "id": "kp_0474",
+      "name": "面积问题模型",
+      "type": "knowledge_point",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0111",
+      "description": "S阴影=(a-2x)(b-2x)，S阴影=(a-b)/2×b等常用模型"
+    },
+    {
+      "id": "kp_0475",
+      "name": "握手与赠送问题",
+      "type": "knowledge_point",
+      "chapter": 7,
+      "chapter_name": "一元二次方程及其应用",
+      "domain": "数与代数",
+      "parent": "kp_0112",
+      "description": "n人握手次数=n(n-1)/2，互相赠送=n(n-1)"
+    },
+    {
+      "id": "kp_0476",
+      "name": "不等式的性质1（加减不变号）",
+      "type": "knowledge_point",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0114",
+      "description": "若a>b则a±c>b±c"
+    },
+    {
+      "id": "kp_0477",
+      "name": "不等式的性质2（乘除正数不变号）",
+      "type": "knowledge_point",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0114",
+      "description": "若a>b,c>0则ac>bc,a/c>b/c"
+    },
+    {
+      "id": "kp_0478",
+      "name": "不等式的性质3（乘除负数变号）",
+      "type": "knowledge_point",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0114",
+      "description": "若a>b,c<0则ac<bc,a/c<b/c"
+    },
+    {
+      "id": "kp_0479",
+      "name": "解一元一次不等式的步骤",
+      "type": "knowledge_point",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0115",
+      "description": "去分母→去括号→移项→合并同类项→系数化为1"
+    },
+    {
+      "id": "kp_0480",
+      "name": "解集在数轴上的表示",
+      "type": "knowledge_point",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0116",
+      "description": "小于向左大于向右，≤≥实心圆点，<>空心圆圈"
+    },
+    {
+      "id": "kp_0481",
+      "name": "不等式组解集：同大取大",
+      "type": "knowledge_point",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0117",
+      "description": "x≥a且x≥b(a>b)→x≥a"
+    },
+    {
+      "id": "kp_0482",
+      "name": "不等式组解集：同小取小",
+      "type": "knowledge_point",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0117",
+      "description": "x≤a且x≤b(a>b)→x≤b"
+    },
+    {
+      "id": "kp_0483",
+      "name": "不等式组解集：大小小大取中间",
+      "type": "knowledge_point",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0117",
+      "description": "x≥b且x≤a(a>b)→b≤x≤a"
+    },
+    {
+      "id": "kp_0484",
+      "name": "不等式组解集：大大小小无解",
+      "type": "knowledge_point",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0117",
+      "description": "x≤b且x≥a(a>b)→无解"
+    },
+    {
+      "id": "kp_0485",
+      "name": "不等式的实际应用关键词",
+      "type": "knowledge_point",
+      "chapter": 8,
+      "chapter_name": "一次不等式（组）",
+      "domain": "数与代数",
+      "parent": "kp_0118",
+      "description": "至少≥、最多≤、不低于≥、不高于≤、不大于≤、不小于≥"
+    },
+    {
+      "id": "kp_0486",
+      "name": "一次函数定义",
+      "type": "knowledge_point",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0150",
+      "description": "y=kx+b(k,b为常数,k≠0)"
+    },
+    {
+      "id": "kp_0487",
+      "name": "正比例函数",
+      "type": "knowledge_point",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0150",
+      "description": "y=kx(b=0)，图象经过原点"
+    },
+    {
+      "id": "kp_0488",
+      "name": "斜率k的意义",
+      "type": "knowledge_point",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0151",
+      "description": "k>0时y随x增大而增大，k<0时y随x增大而减小"
+    },
+    {
+      "id": "kp_0489",
+      "name": "截距b的意义",
+      "type": "knowledge_point",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0151",
+      "description": "b>0交于y轴正半轴，b<0交于负半轴，b=0经过原点"
+    },
+    {
+      "id": "kp_0490",
+      "name": "一次函数图象分布象限",
+      "type": "knowledge_point",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0152",
+      "description": "k>0,b>0→一二三象限；k>0,b<0→一三四；k<0,b>0→一二四；k<0,b<0→二三四"
+    },
+    {
+      "id": "kp_0491",
+      "name": "一次函数与坐标轴交点",
+      "type": "knowledge_point",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0153",
+      "description": "与x轴交点(-b/k,0)，与y轴交点(0,b)"
+    },
+    {
+      "id": "kp_0492",
+      "name": "两直线平行条件",
+      "type": "knowledge_point",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0154",
+      "description": "k₁=k₂"
+    },
+    {
+      "id": "kp_0493",
+      "name": "两直线垂直条件",
+      "type": "knowledge_point",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0154",
+      "description": "k₁·k₂=-1"
+    },
+    {
+      "id": "kp_0494",
+      "name": "一次函数图象的平移",
+      "type": "knowledge_point",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0155",
+      "description": "左加右减(对x)，上加下减(对整体)"
+    },
+    {
+      "id": "kp_0495",
+      "name": "待定系数法求解析式",
+      "type": "knowledge_point",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0156",
+      "description": "已知两点坐标→代入y=kx+b→解方程组→写出解析式"
+    },
+    {
+      "id": "kp_0496",
+      "name": "一次函数与方程不等式的关系",
+      "type": "knowledge_point",
+      "chapter": 10,
+      "chapter_name": "一次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0157",
+      "description": "方程解⇔与x轴交点横坐标，kx+b>0⇔图象在x轴上方"
+    },
+    {
+      "id": "kp_0497",
+      "name": "反比例函数定义",
+      "type": "knowledge_point",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": "kp_0159",
+      "description": "y=k/x(k≠0)，x≠0，图象是双曲线"
+    },
+    {
+      "id": "kp_0498",
+      "name": "反比例函数k>0的性质",
+      "type": "knowledge_point",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": "kp_0160",
+      "description": "双曲线在一三象限，每个象限内y随x增大而减小"
+    },
+    {
+      "id": "kp_0499",
+      "name": "反比例函数k<0的性质",
+      "type": "knowledge_point",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": "kp_0160",
+      "description": "双曲线在二四象限，每个象限内y随x增大而增大"
+    },
+    {
+      "id": "kp_0500",
+      "name": "反比例函数的对称性",
+      "type": "knowledge_point",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": "kp_0160",
+      "description": "关于直线y=±x对称，关于原点中心对称"
+    },
+    {
+      "id": "kp_0501",
+      "name": "k的几何意义",
+      "type": "knowledge_point",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": "kp_0161",
+      "description": "图象上任一点作坐标轴垂线，围成矩形面积S=|k|"
+    },
+    {
+      "id": "kp_0502",
+      "name": "待定系数法求反比例函数解析式",
+      "type": "knowledge_point",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": "kp_0162",
+      "description": "已知一点P(a,b)→k=ab→写出y=k/x"
+    },
+    {
+      "id": "kp_0503",
+      "name": "利用k的几何意义求解析式",
+      "type": "knowledge_point",
+      "chapter": 11,
+      "chapter_name": "反比例函数",
+      "domain": "数与代数",
+      "parent": "kp_0162",
+      "description": "由图形面积求出|k|，再根据象限判断k的符号"
+    },
+    {
+      "id": "kp_0504",
+      "name": "三角形按边分类",
+      "type": "knowledge_point",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0196",
+      "description": "不等边三角形/等腰三角形(含等边三角形)"
+    },
+    {
+      "id": "kp_0505",
+      "name": "三角形按角分类",
+      "type": "knowledge_point",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0196",
+      "description": "锐角三角形/直角三角形/钝角三角形"
+    },
+    {
+      "id": "kp_0506",
+      "name": "三角形三边关系",
+      "type": "knowledge_point",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0199",
+      "description": "任意两边之和大于第三边，任意两边之差小于第三边"
+    },
+    {
+      "id": "kp_0507",
+      "name": "三角形内角和",
+      "type": "knowledge_point",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0200",
+      "description": "三角形三个内角之和为180°"
+    },
+    {
+      "id": "kp_0508",
+      "name": "三角形外角的性质",
+      "type": "knowledge_point",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0200",
+      "description": "外角等于不相邻两内角之和，外角大于任一不相邻内角"
+    },
+    {
+      "id": "kp_0509",
+      "name": "三角形边角关系",
+      "type": "knowledge_point",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0200",
+      "description": "等边对等角，大边对大角，小边对小角"
+    },
+    {
+      "id": "kp_0510",
+      "name": "三角形的中线",
+      "type": "knowledge_point",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0201",
+      "description": "连接顶点与对边中点，三条中线交于重心，等分面积"
+    },
+    {
+      "id": "kp_0511",
+      "name": "三角形的高线",
+      "type": "knowledge_point",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0201",
+      "description": "过顶点作对边的垂线，三条高线交于垂心"
+    },
+    {
+      "id": "kp_0512",
+      "name": "三角形的角平分线",
+      "type": "knowledge_point",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0201",
+      "description": "内角平分线与对边相交，三条角平分线交于内心"
+    },
+    {
+      "id": "kp_0513",
+      "name": "三角形的中位线",
+      "type": "knowledge_point",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0201",
+      "description": "连接两边中点，平行于第三边且等于第三边的一半"
+    },
+    {
+      "id": "kp_0514",
+      "name": "三角形面积模型",
+      "type": "knowledge_point",
+      "chapter": 14,
+      "chapter_name": "三角形及其性质",
+      "domain": "图形与几何",
+      "parent": "kp_0202",
+      "description": "等底等高面积相等，等高面积比=底之比，平行线间等积变形"
+    },
+    {
+      "id": "kp_0515",
+      "name": "实数的分类",
+      "type": "knowledge_point",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0002",
+      "description": "有理数(有限或循环小数)和无理数(无限不循环小数)"
+    },
+    {
+      "id": "kp_0516",
+      "name": "正数与负数",
+      "type": "knowledge_point",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0005",
+      "description": ""
+    },
+    {
+      "id": "kp_0517",
+      "name": "数轴与点的对应",
+      "type": "knowledge_point",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0006",
+      "description": "实数与数轴上的点一一对应，数轴上两点距离=右边-左边"
+    },
+    {
+      "id": "kp_0518",
+      "name": "绝对值",
+      "type": "knowledge_point",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0006",
+      "description": "数轴上表示数a的点到原点的距离，具有非负性"
+    },
+    {
+      "id": "kp_0519",
+      "name": "相反数与倒数",
+      "type": "knowledge_point",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0007",
+      "description": "a的相反数是-a，a+b=0⇔互为相反数；非零a的倒数为1/a，ab=1⇔互为倒数"
+    },
+    {
+      "id": "kp_0520",
+      "name": "科学记数法",
+      "type": "knowledge_point",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0008",
+      "description": "a×10ⁿ，1≤|a|<10，n为整数"
+    },
+    {
+      "id": "kp_0521",
+      "name": "平方根与算术平方根",
+      "type": "knowledge_point",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0010",
+      "description": "a(a≥0)的平方根为±√a，算术平方根为√a"
+    },
+    {
+      "id": "kp_0522",
+      "name": "立方根",
+      "type": "knowledge_point",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0010",
+      "description": "实数a的立方根为∛a，与原数同号"
+    },
+    {
+      "id": "kp_0523",
+      "name": "实数的运算",
+      "type": "knowledge_point",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0012",
+      "description": "加减乘除乘方运算法则，混合运算顺序：先乘方再乘除最后加减"
+    },
+    {
+      "id": "kp_0524",
+      "name": "特殊角的三角函数值",
+      "type": "knowledge_point",
+      "chapter": 1,
+      "chapter_name": "实数",
+      "domain": "数与代数",
+      "parent": "kp_0001",
+      "description": "30°:sin=1/2,cos=√3/2,tan=√3/3；45°:√2/2,√2/2,1；60°:√3/2,1/2,√3"
+    },
+    {
+      "id": "kp_0525",
+      "name": "二次函数一般式",
+      "type": "knowledge_point",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0166",
+      "description": "y=ax²+bx+c(a≠0)"
+    },
+    {
+      "id": "kp_0526",
+      "name": "二次函数顶点式",
+      "type": "knowledge_point",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0166",
+      "description": "y=a(x-h)²+k，顶点(h,k)"
+    },
+    {
+      "id": "kp_0527",
+      "name": "二次函数两点式",
+      "type": "knowledge_point",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0166",
+      "description": "y=a(x-x₁)(x-x₂)，与x轴交点(x₁,0)和(x₂,0)"
+    },
+    {
+      "id": "kp_0528",
+      "name": "二次函数的对称轴与顶点",
+      "type": "knowledge_point",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0170",
+      "description": "对称轴x=-b/(2a)，顶点(-b/(2a),(4ac-b²)/(4a))"
+    },
+    {
+      "id": "kp_0529",
+      "name": "参数a的作用",
+      "type": "knowledge_point",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0171",
+      "description": "决定开口方向：a>0开口向上，a<0开口向下"
+    },
+    {
+      "id": "kp_0530",
+      "name": "参数c的作用",
+      "type": "knowledge_point",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0171",
+      "description": "决定与y轴交点：c=0过原点，c>0交正半轴，c<0交负半轴"
+    },
+    {
+      "id": "kp_0531",
+      "name": "判别式Δ与x轴交点",
+      "type": "knowledge_point",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0171",
+      "description": "Δ=0一个交点，Δ>0两个交点，Δ<0无交点"
+    },
+    {
+      "id": "kp_0532",
+      "name": "二次函数图象的平移",
+      "type": "knowledge_point",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0173",
+      "description": "左加右减(对x)，上加下减(对整体)，口诀：左加右减，上加下减"
+    },
+    {
+      "id": "kp_0533",
+      "name": "二次函数与方程不等式的关系",
+      "type": "knowledge_point",
+      "chapter": 12,
+      "chapter_name": "二次函数的图象及性质",
+      "domain": "数与代数",
+      "parent": "kp_0174",
+      "description": "方程ax²+bx+c=0的解⇔与x轴交点的横坐标"
+    },
+    {
+      "id": "kp_0534",
+      "name": "相似三角形的判定SSS",
+      "type": "knowledge_point",
+      "chapter": 17,
+      "chapter_name": "相似三角形（含位似）",
+      "domain": "图形与几何",
+      "parent": "kp_0265",
+      "description": "三边对应成比例的两个三角形相似"
+    },
+    {
+      "id": "kp_0535",
+      "name": "相似三角形的判定SAS",
+      "type": "knowledge_point",
+      "chapter": 17,
+      "chapter_name": "相似三角形（含位似）",
+      "domain": "图形与几何",
+      "parent": "kp_0265",
+      "description": "两边对应成比例且夹角相等的两个三角形相似"
+    },
+    {
+      "id": "kp_0536",
+      "name": "相似三角形的判定AA",
+      "type": "knowledge_point",
+      "chapter": 17,
+      "chapter_name": "相似三角形（含位似）",
+      "domain": "图形与几何",
+      "parent": "kp_0265",
+      "description": "两角分别相等的两个三角形相似"
+    },
+    {
+      "id": "kp_0537",
+      "name": "点与圆的位置关系",
+      "type": "knowledge_point",
+      "chapter": 22,
+      "chapter_name": "点、直线与圆的位置关系",
+      "domain": "图形与几何",
+      "parent": "kp_0368",
+      "description": "d>r点在外，d=r点在圆上，d<r点在内(d为到圆心距离)"
+    },
+    {
+      "id": "kp_0538",
+      "name": "直线与圆的位置关系",
+      "type": "knowledge_point",
+      "chapter": 22,
+      "chapter_name": "点、直线与圆的位置关系",
+      "domain": "图形与几何",
+      "parent": "kp_0369",
+      "description": "d>r相离，d=r相切，d<r相交(d为圆心到直线距离)"
+    },
+    {
+      "id": "kp_0539",
+      "name": "切线的判定定理",
+      "type": "knowledge_point",
+      "chapter": 22,
+      "chapter_name": "点、直线与圆的位置关系",
+      "domain": "图形与几何",
+      "parent": "kp_0370",
+      "description": "经过半径外端且垂直于这条半径的直线是圆的切线"
+    },
+    {
+      "id": "kp_0540",
+      "name": "切线的性质定理",
+      "type": "knowledge_point",
+      "chapter": 22,
+      "chapter_name": "点、直线与圆的位置关系",
+      "domain": "图形与几何",
+      "parent": "kp_0370",
+      "description": "圆的切线垂直于经过切点的半径"
+    },
+    {
+      "id": "kp_0541",
+      "name": "切线长定理",
+      "type": "knowledge_point",
+      "chapter": 22,
+      "chapter_name": "点、直线与圆的位置关系",
+      "domain": "图形与几何",
+      "parent": "kp_0370",
+      "description": "从圆外一点引圆的两条切线，切线长相等"
+    },
+    {
+      "id": "kp_0542",
+      "name": "垂径定理",
+      "type": "knowledge_point",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0358",
+      "description": "垂直于弦的直径平分这条弦，并且平分弦所对的两条弧"
+    },
+    {
+      "id": "kp_0543",
+      "name": "圆心角定理",
+      "type": "knowledge_point",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0358",
+      "description": "在同圆或等圆中，相等的圆心角所对的弧相等、弦相等"
+    },
+    {
+      "id": "kp_0544",
+      "name": "圆周角定理",
+      "type": "knowledge_point",
+      "chapter": 21,
+      "chapter_name": "圆的基本性质",
+      "domain": "图形与几何",
+      "parent": "kp_0359",
+      "description": "一条弧所对的圆周角等于它所对圆心角的一半"
+    }
+  ],
+  "edges": [
+    {
+      "source": "kp_0002",
+      "target": "kp_0005",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0005",
+      "target": "kp_0006",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0006",
+      "target": "kp_0007",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0007",
+      "target": "kp_0008",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0008",
+      "target": "kp_0009",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0009",
+      "target": "kp_0010",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0010",
+      "target": "kp_0011",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0011",
+      "target": "kp_0012",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0001",
+      "target": "kp_0022",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0023",
+      "target": "kp_0024",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0024",
+      "target": "kp_0027",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0027",
+      "target": "kp_0028",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0028",
+      "target": "kp_0032",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0032",
+      "target": "kp_0035",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0035",
+      "target": "kp_0036",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0022",
+      "target": "kp_0041",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0042",
+      "target": "kp_0043",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0043",
+      "target": "kp_0044",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0044",
+      "target": "kp_0045",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0045",
+      "target": "kp_0046",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0046",
+      "target": "kp_0047",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0047",
+      "target": "kp_0050",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0050",
+      "target": "kp_0055",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0041",
+      "target": "kp_0056",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0057",
+      "target": "kp_0058",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0058",
+      "target": "kp_0059",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0059",
+      "target": "kp_0060",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0060",
+      "target": "kp_0061",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0061",
+      "target": "kp_0064",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0056",
+      "target": "kp_0065",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0066",
+      "target": "kp_0067",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0067",
+      "target": "kp_0070",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0070",
+      "target": "kp_0077",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0065",
+      "target": "kp_0082",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0083",
+      "target": "kp_0086",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0086",
+      "target": "kp_0091",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0091",
+      "target": "kp_0096",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0096",
+      "target": "kp_0099",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0082",
+      "target": "kp_0104",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0105",
+      "target": "kp_0106",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0106",
+      "target": "kp_0107",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0107",
+      "target": "kp_0108",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0108",
+      "target": "kp_0109",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0109",
+      "target": "kp_0110",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0110",
+      "target": "kp_0111",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0111",
+      "target": "kp_0112",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0104",
+      "target": "kp_0113",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0114",
+      "target": "kp_0115",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0115",
+      "target": "kp_0116",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0116",
+      "target": "kp_0117",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0117",
+      "target": "kp_0118",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0113",
+      "target": "kp_0119",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0120",
+      "target": "kp_0125",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0125",
+      "target": "kp_0126",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0126",
+      "target": "kp_0130",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0130",
+      "target": "kp_0131",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0131",
+      "target": "kp_0132",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0132",
+      "target": "kp_0135",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0135",
+      "target": "kp_0136",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0136",
+      "target": "kp_0142",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0142",
+      "target": "kp_0143",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0119",
+      "target": "kp_0149",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0150",
+      "target": "kp_0151",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0151",
+      "target": "kp_0152",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0152",
+      "target": "kp_0153",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0153",
+      "target": "kp_0154",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0154",
+      "target": "kp_0155",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0155",
+      "target": "kp_0156",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0156",
+      "target": "kp_0157",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0149",
+      "target": "kp_0158",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0159",
+      "target": "kp_0160",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0160",
+      "target": "kp_0161",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0161",
+      "target": "kp_0162",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0158",
+      "target": "kp_0165",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0166",
+      "target": "kp_0170",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0170",
+      "target": "kp_0171",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0171",
+      "target": "kp_0172",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0172",
+      "target": "kp_0173",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0173",
+      "target": "kp_0174",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0165",
+      "target": "kp_0175",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0176",
+      "target": "kp_0177",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0177",
+      "target": "kp_0178",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0178",
+      "target": "kp_0179",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0179",
+      "target": "kp_0182",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0182",
+      "target": "kp_0183",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0183",
+      "target": "kp_0187",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0187",
+      "target": "kp_0188",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0188",
+      "target": "kp_0190",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0175",
+      "target": "kp_0195",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0196",
+      "target": "kp_0199",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0199",
+      "target": "kp_0200",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0200",
+      "target": "kp_0201",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0201",
+      "target": "kp_0202",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0195",
+      "target": "kp_0203",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0204",
+      "target": "kp_0209",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0209",
+      "target": "kp_0214",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0203",
+      "target": "kp_0219",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0220",
+      "target": "kp_0229",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0229",
+      "target": "kp_0234",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0234",
+      "target": "kp_0236",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0236",
+      "target": "kp_0242",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0242",
+      "target": "kp_0250",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0250",
+      "target": "kp_0253",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0253",
+      "target": "kp_0258",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0219",
+      "target": "kp_0261",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0262",
+      "target": "kp_0263",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0263",
+      "target": "kp_0264",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0264",
+      "target": "kp_0265",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0265",
+      "target": "kp_0266",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0266",
+      "target": "kp_0267",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0261",
+      "target": "kp_0270",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0271",
+      "target": "kp_0276",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0276",
+      "target": "kp_0277",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0277",
+      "target": "kp_0282",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0282",
+      "target": "kp_0283",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0283",
+      "target": "kp_0290",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0270",
+      "target": "kp_0302",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0303",
+      "target": "kp_0310",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0310",
+      "target": "kp_0312",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0312",
+      "target": "kp_0313",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0313",
+      "target": "kp_0315",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0315",
+      "target": "kp_0318",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0318",
+      "target": "kp_0320",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0320",
+      "target": "kp_0321",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0321",
+      "target": "kp_0324",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0324",
+      "target": "kp_0327",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0327",
+      "target": "kp_0332",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0302",
+      "target": "kp_0339",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0340",
+      "target": "kp_0344",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0344",
+      "target": "kp_0348",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0339",
+      "target": "kp_0352",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0353",
+      "target": "kp_0358",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0358",
+      "target": "kp_0359",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0359",
+      "target": "kp_0361",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0361",
+      "target": "kp_0362",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0362",
+      "target": "kp_0364",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0364",
+      "target": "kp_0365",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0365",
+      "target": "kp_0366",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0352",
+      "target": "kp_0367",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0368",
+      "target": "kp_0369",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0369",
+      "target": "kp_0370",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0370",
+      "target": "kp_0373",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0373",
+      "target": "kp_0374",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0367",
+      "target": "kp_0375",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0376",
+      "target": "kp_0380",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0380",
+      "target": "kp_0381",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0381",
+      "target": "kp_0382",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0382",
+      "target": "kp_0387",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0387",
+      "target": "kp_0399",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0399",
+      "target": "kp_0400",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0375",
+      "target": "kp_0406",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0407",
+      "target": "kp_0410",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0410",
+      "target": "kp_0414",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0414",
+      "target": "kp_0415",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0415",
+      "target": "kp_0416",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0416",
+      "target": "kp_0417",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0406",
+      "target": "kp_0419",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0420",
+      "target": "kp_0421",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0421",
+      "target": "kp_0422",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0422",
+      "target": "kp_0423",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0423",
+      "target": "kp_0426",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0419",
+      "target": "kp_0429",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0430",
+      "target": "kp_0431",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0431",
+      "target": "kp_0436",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0436",
+      "target": "kp_0439",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0439",
+      "target": "kp_0440",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0440",
+      "target": "kp_0441",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0441",
+      "target": "kp_0442",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0442",
+      "target": "kp_0443",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0443",
+      "target": "kp_0446",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0429",
+      "target": "kp_0447",
+      "relation": "PREREQUISITE"
+    },
+    {
+      "source": "kp_0448",
+      "target": "kp_0449",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0449",
+      "target": "kp_0450",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0450",
+      "target": "kp_0457",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0457",
+      "target": "kp_0460",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0460",
+      "target": "kp_0461",
+      "relation": "LEADS_TO"
+    },
+    {
+      "source": "kp_0461",
+      "target": "kp_0462",
+      "relation": "LEADS_TO"
+    }
+  ]
+}
